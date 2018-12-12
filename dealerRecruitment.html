@@ -1,0 +1,1705 @@
+
+<script>
+    var contextPath = '';
+</script>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="zh-CN" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="keywords" content="经销商招募" />
+    <meta name="description" content="经销商招募" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>经销商招募</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/media.css" rel="stylesheet" type="text/css" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.transit.js"></script>
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="/js/html5.js"></script>
+    <script type="text/javascript" src="js/bocfe.js"></script>
+    <script src="js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript" src="js/plug.preload.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="js/smooth.js"></script>
+    <script type="text/javascript" src="js/jquery.superslide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="js/optiscroll.js"></script>
+</head>
+<body>
+<!--PC端的导航栏部分-->
+<div class="ajax-header">
+    <div class="header bocweb-logo">
+        <!-- 上栏部分-->
+        <div class="top">
+            <a href="chargingPile.html">充电服务</a>
+            <a href="platform.html">轻享平台</a>
+        </div>
+        <!-- 下栏部分-->
+        <div class="bot f-cb">
+            <!-- logo部分-->
+            <div class="logo">
+                <a href="/">
+                    <img src="img/201708181439500850.jpg" alt="bj-logo.jpg">
+                </a>
+            </div>
+            <!-- 预览部分-->
+            <div class="slide">
+                <!-- 下拉小箭头-->
+                <div class="ttop">车型一览<img src="img/img-01.png" alt="车型预览"></div>
+                <!-- 预览二级菜单-->
+                <div class="bbot">
+                    <ul class="f-cb">
+                        <li>
+                            <div class="bx">
+                                <div class="te">EU</div>
+                                <a href="detile.html">
+                                    <div class="carimg">
+                                        <img src="img/201804241950590352.png" alt="eu5.png">
+                                    </div>
+                                    <div class="tit">EU5</div>
+                                    <div class="more">了解详情<img src="img/img-45.png" alt="了解详情"></div>
+                                </a>
+                            </div>
+                            <div class="bx">
+                                <div class="te">EX</div>
+                                <a href="detile.htm">
+                                    <div class="carimg">
+                                        <img src="img/201803252337120308.png" alt="ex360封面.png">
+                                    </div>
+                                    <div class="tit">EX360</div>
+                                    <div class="more">了解详情<img src="img/img-45.png" alt="了解详情"></div>
+                                </a>
+                            </div>
+                            <div class="bx">
+                                <div class="te">EC</div>
+                                <a href="detile.htm">
+                                    <div class="carimg">
+                                        <img src="img/201808271646540348.png" alt="90度蓝-剪切.png">
+                                    </div>
+                                    <div class="tit">EC3</div>
+                                    <div class="more">了解详情<img src="img/img-45.png" alt="了解详情"></div>
+                                </a>
+                            </div>
+                            <div class="bx">
+                                <div class="te">快换</div>
+                                <a href="detile.htm">
+                                    <div class="carimg">
+                                        <img src="img/201807051645000665.png" alt="QQ图片20180705164353.png">
+                                    </div>
+                                    <div class="tit">EU快换版</div>
+                                    <div class="more">了解详情<img src="img/img-45.png" alt="了解详情"></div>
+                                </a>
+                            </div>
+                            <div class="bx">
+                                <div class="te">租售通</div>
+                                <a href="detile.htm">
+                                    <div class="carimg">
+                                        <img src="img/201807301140550488.png" alt="EC.png">
+                                    </div>
+                                    <div class="tit">EC220租售通</div>
+                                    <div class="more">了解详情<img src="img/img-45.png" alt="了解详情"></div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 栏目部分-->
+            <div class="nav bocweb-nav">
+                <a href="index.html">首页</a>
+                <!-- <a href="/carservice/service.htm">购车服务</a> -->
+                <a href="serviceAftersale.html">购车服务</a>
+                <a href="newsInformation_two.html">新闻资讯</a>
+                <a href="ownersCommunity.html">车主社区</a>
+                <a href="purchase.html">企业采购</a>
+                <a href="about.html">关于我们</a>
+            </div>
+            <!-- 商城二维码部分-->
+            <div class="right">
+                <div class="search-box">
+                    <form action="search.html" class="input-kw-form">
+                        <div class="img">
+                            <img src="img/img-02.png" alt="放大镜">
+                            <input value="" type="submit">
+                        </div>
+                        <div class="pop-up">
+                            <input placeholder="请输入内容" class="te" type="search" id="search" name="key">
+                            <div class="hide"><img src="img/img-03.png" alt="删除"></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="shopcar por">
+                    <a href="javascript:;">
+                        商城
+                    </a>
+                    <div class="shop_img">
+                        <img src="img/erweima.jpg" alt="">
+                        <p>扫码登陆卫蓝合伙人微商城<br>即刻下订</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-ajax"></div>
+    <div class="syb"></div>
+    <div class="click-fixed click-fixed1"></div>
+</div>
+<!--手机端部分的导航栏部分-->
+<div class="ajax-header-mobile">
+    <div class="header-mobile">
+        <!-- logo部分-->
+        <div class="logo">
+            <a href="/">
+                <img src="img/img-12.jpg" alt="北汽新能源logo">
+            </a>
+        </div>
+        <!-- 更多下拉按钮-->
+        <div class="navbtn bocweb-nav">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <!--小汽车 -->
+        <div class="clse">
+            <img src="img/q-12.png" alt="查找你的北汽新能源">
+        </div>
+        <!-- 车型一览部分-->
+        <a href="proAllList.html" class="che-btn">
+            <p>车型一览</p>
+        </a>
+        <!-- 二级菜单-->
+        <div class="slidebox">
+            <!-- 下拉栏目-->
+            <ul class="f-cb">
+                <li>
+                    <a class="sp" href="/">首页</a>
+                </li>
+                <li>
+                    <p>车型一览</p>
+                    <div class="box">
+                        <a href="detile.html">EU5</a>
+                        <a href="detile.html">EX360</a>
+                        <a href="detile.html">EC3</a>
+                        <a href="detile.html">EU快换版</a>
+                        <a href="detile.html">EC220租售通</a>
+                    </div>
+                </li>
+                <li>
+                    <p>购车服务</p>
+                    <div class="box">
+                        <!-- <a href="/carservice/service.htm">金融政策</a> -->
+                        <a href="serviceAftersale.html">售后服务</a>
+                        <a href="chargingPile.html">充电桩服务</a>
+                    </div>
+                </li>
+                <li>
+                    <p>新闻资讯</p>
+                    <div class="box">
+                        <a href="newsInformation_two.html">品牌动态</a>
+                        <a href="newsInformation_two.html">媒体测评</a>
+                        <a href="newsInformation_two.html">促销活动</a>
+                    </div>
+                </li>
+                <li>
+                    <p>车主社区</p>
+                    <div class="box">
+                        <a href="community.html">车主活动</a>
+                        <a href="community.html">车主故事</a>
+                        <a href="community.html">用户分享</a>
+                        <a href="community.html">留言反馈</a>
+                    </div>
+                </li>
+                <li>
+                    <p>关于我们</p>
+                    <div class="box">
+                        <a href="about.html" title="">北汽新能源</a>
+                        <a href="about.html" title="">创新成果</a>
+                        <a href="about.html" title="">荣誉关怀</a>
+                        <a href="about.html" title="">员工风采</a>
+                        <a href="about.html" title="">卫蓝大事记</a>
+                    </div>
+                </li>
+                <li>
+                    <p>轻享平台</p>
+                    <div class="box">
+                        <a href="lightEnjoymentPlatform.html" title="">新手指南</a>
+                        <a href="lightEnjoymentPlatform.html" title="">用车价格</a>
+                        <a href="lightEnjoymentPlatform.html" title="">轻享故事</a>
+                        <a href="lightEnjoymentPlatform.html" title="">轻享APP</a>
+                        <a href="lightEnjoymentPlatform.html" title="">常见问题</a>
+                    </div>
+                </li>
+                <li>
+                    <p>充电服务</p>
+                    <div class="box">
+                        <a href="http://www.bjev520.com/jsp/beiqi/pcmap/do/index.jsp" title="">查找充电桩</a>
+                        <a href="chargingPile.html" title="">充电桩服务</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- 搜索框部分-->
+            <div class="newsear">
+                <form action="search.html">
+                    <input class="sub" value="" type="submit">
+                    <input placeholder="搜索" class="pt"  type="search" name="key" >
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--查找新能源部分 -->
+    <div class="hjj">
+        <form action="proList.html" method="post" id="findFrom">
+            <!-- 关闭按钮-->
+            <div class="khide">
+                <img src="img/njhide2.png" alt="删除">
+            </div>
+            <p>查找你的北汽新能源</p>
+            <select name="typeId" id="typeId">
+                <option value="820021">两厢车</option>
+                <option value="820022">三厢车</option>
+                <option value="820023">SUV</option>
+            </select>
+            <select name="priceId" id="priceId">
+                <option value="820024">5-10万</option>
+                <option value="820025">10-15万</option>
+                <option value="820026">15-20万</option>
+                <option value="820027">20万以上</option>
+            </select>
+            <select name="mileageId" id="mileageId">
+                <option value="820028">150-200公里</option>
+                <option value="820029">200-250公里</option>
+                <option value="820030">250-300公里</option>
+                <option value="820031">300-400公里</option>
+                <option value="820032">400公里以上</option>
+            </select>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="click-fixed click-fixed2"></div>
+    <div class="back-fixed"></div>
+</div>
+
+
+
+
+
+<!--主体部分-->
+<div class="dealer">
+    <div data-mob="img/q-22.png" data-pc="img/dealer-01.jpg" class="dealer-banner">
+        <img src="img/dealer-01.jpg" alt="经销商招募" />
+    </div>
+    <div class="dealer-tit sp www1400">
+        经销商招募
+    </div>
+    <div class="dealer-box1 www1400">
+        <div class="frr">
+            <img src="img/dealer-02.jpg" alt="招募城市" />
+        </div>
+        <div class="fll">
+            <div class="text">
+                <p>
+                    在卫  蓝之旅的路上，唯创新与梦想不可辜负。为了与更多的用户共享绿色、便捷、
+                    智慧出行所带来的美好生活，北汽新能源一直致力于打造具有竞争力的精良的经销
+                    商网络，我们期待与有识之士精诚合作，共谋发展。
+                </p>
+                <br />
+                <p>让我们共同为用户和环境创造福祉，创领绿色出行的未来！</p>
+            </div>
+            <div class="d-title">招募城市</div>
+            <div class="d-click">2018年招募城市名单</div>
+        </div>
+    </div>
+    <div class="dealer-box2 www1400">
+        <div class="d-title">经销商准入条件</div>
+        <ul>
+            <li>
+                <div class="box">
+                    <div class="img"><img src="img/dealer-02.png" alt="经营理念" /></div>
+                    <div class="text">
+                        <div class="tk">经营理念</div>
+                        <p>了解并认同北汽新能源的经营理念及营销模式，愿意长期投资共同发展；</p>
+                        <p>了解新能源汽车的发展历程，看好新能源汽车在中国的发展前景；</p>
+                        <p>有致力于新能源汽车领域发展的意愿和长远规划。</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img"><img src="img/dealer-03.png" alt="经营资质" /></div>
+                    <div class="text">
+                        <div class="tk">经营资质</div>
+                        <p>经国家工商管理机构注册登记，注册资金不低于300万元，具有独立法人资格和合法汽车经营场所；</p>
+                        <p>具备2年及以上汽车零售行业销售和服务经验，所经营的品牌拥有良好的业绩表现；</p>
+                        <p>具备2年及以上汽车零售行业销售和服务经验，所经营的品牌拥有良好的业绩表现；</p>
+                        <p>熟悉当地市场新能源汽车相关政策，与当地政府及新能源汽车相关管理机构具备良好的关系；</p>
+                        <p>具有良好的商业信誉，无不良记录，无法律纠纷。</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="img"><img src="img/dealer-06.png" alt="人员要求" /></div>
+                    <div class="text">
+                        <div class="tk">人员要求</div>
+                        <p>具有丰富的人员储备，有能力按照北汽新能源的要求配备符合条件的经营管理团队。</p>
+                        <p>
+                            总经理、销售经理、服务经理等关键岗位人员，必须具备两年以上汽车销售
+                            服务行业经验。
+                        </p>
+                        <p>
+                            经销商BJEV店总经理须通过事业部或网络发展部的面试。
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img"><img src="img/dealer-06-1.png" alt="售后维修资质" /></div>
+                    <div class="text">
+                        <div class="tk">售后维修资质</div>
+                        <p>能够取得当地汽车二类及以上维修资质；</p>
+                        <p>如销售与售后为不同公司，则两公司须为同一法人。 </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="img"><img src="img/dealer-04.png" alt="经营场地" /></div>
+                    <div class="text">
+                        <div class="tk">经营场地</div>
+                        <p>商圈要求：位于当地主要汽车商圈（汽车城或汽车一条街），周边有其他新能源汽车品牌分布，汽车商圈符合政府规划，且比较成熟，无拆迁风险；</p>
+                        <p>商圈要求：位于当地主要汽车商圈（汽车城或汽车一条街），周边有其他新能源汽车品牌分布，汽车商圈符合政府规划，且比较成熟，无拆迁风险；</p>
+                        <p>
+                            合规性要求：场地面积需达到北汽新能源Cc级及以上标准（面宽≥20m，销售面
+                            积≥360m²，服务面积≥348m²），选址需符合北汽新能源汽车网点运营要求，
+                            且场地信息真实、有效。在规定时间内不能按要求开工建设的，北汽新能
+                            源有权终止合作，并重新启动该地区的招商计划；
+                        </p>
+                        <p>
+                            场地使用年限：自有产权或租赁有效期5年及以上；
+                        </p>
+                        <p>
+                            若同城已有北汽新能源销售服务网点，则申请单位场地选址与最近的网点的
+                            直线距离需大于5公里，且不在同一汽车商圈。
+                        </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img"><img src="img/dealer-05.png" alt="资金要求" /></div>
+                    <div class="text">
+                        <div class="tk">资金要求</div>
+                        <p>财务状况良好，并能为北汽新能源经销店提供充足的建设和运营资金。申请时申请人需提供不低于500万的可用资金证明。</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="dealer-box3 www1400">
+        <div class="d-title">建店标准&补贴</div>
+        <div class="img">
+            <img src="img/dealer-03.jpg" alt="建店标准&补贴" />
+            <br />
+            <p style="font-size:14px;color:#999;">
+                注：为了支援新经销商店面设施建设及开业初期的运营，北汽新能源将针对不同地
+                区&不同级别的经销商给予相应的补贴。
+            </p>
+        </div>
+    </div>
+    <div class="dealer-box4 www1400">
+        <div class="d-title">4S店形象</div>
+        <div class="box">
+            <img style="width:100%;height:auto" src="img/dealer1.jpg" alt="4S店形象" />
+        </div>
+    </div>
+    <div class="dealer-box5 www1400">
+        <div class="d-title">申请流程</div>
+        <div data-pc="img/dealer-08.png" data-mob="img/q-21.png" class="img">
+            <img src="img/dealer-08.png" alt="申请流程" />
+        </div>
+        <p class="sp">
+            <!--<a href="javascript:;" download="北汽新能源经销商入网申请书.pptx">《北汽新能源经销商入网申请书》（下载）</a>-->
+            请按要求填写并准备申请书中要求的相关附件。
+        </p>
+    </div>
+    <div class="dealer-box6 www1400">
+        <div class="d-title">
+            联系我们
+        </div>
+        <ul>
+            <li>
+                <div class="img"><img src="img/dealer-09.png" alt="招募热线" /></div>
+                <div class="text">
+                    <div class="bt">招募热线</div>
+                    <div class="te">
+                        <p>010-53955668 </p>
+                        <p>010-53955630</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="img"><img src="img/dealer-10.png" alt="电子邮箱" /></div>
+                <div class="text">
+                    <div class="bt">电子邮箱</div>
+                    <div class="te">
+                        <p>lianxiaolei@bjev.com.cn</p>
+                        <p>gengweizhi@bjev.com.cn</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="img"><img src="img/dealer-11.png" alt="通讯地址" /></div>
+                <div class="text">
+                    <div class="bt">通讯地址</div>
+                    <div class="te">
+                        <p>北京市大兴区经济技术开发区东环中路5号</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="img"><img src="img/dealer-12.png" alt="邮政编码" /></div>
+                <div class="text">
+                    <div class="bt">邮政编码</div>
+                    <div class="te">
+                        <p>100176</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--招募城市弹窗-->
+<div class="dea-bgg">
+    <div class="dea-table">
+        <div class="de-tit">2018年招募城市名单</div>
+        <table class="table1">
+            <tr>
+                <td width="30%">序号</td>
+                <td class="sp" width="40%">省份</td>
+                <td width="30%">城市</td>
+            </tr>
+        </table>
+        <div id="os8" class="de-sc optiscroll column">
+            <table class="table2">
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">深圳<span style="color:red;">*</span></td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">东莞<span style="color:red;">*</span></td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">佛山（顺德）<span style="color:red;">*</span></td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">汕头</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">珠海</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">茂名</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">肇庆</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">韶关</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">清远</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">揭阳</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">河源</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">阳江</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广东</td>
+                    <td width="30%">潮州</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖南</td>
+                    <td width="30%">长沙<span style="color:red;">*</span></td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖南</td>
+                    <td width="30%">郴州</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖南</td>
+                    <td width="30%">湘潭</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖南</td>
+                    <td width="30%">永州</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广西</td>
+                    <td width="30%">柳州</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广西</td>
+                    <td width="30%">玉林</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">广西</td>
+                    <td width="30%">北海</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">福建</td>
+                    <td width="30%">南平</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">福建</td>
+                    <td width="30%">宁德</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">重庆</td>
+                    <td width="30%">重庆（万州）<span style="color:red;">*</span></td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">自贡</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">泸州</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">内江</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">凉山</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">资阳</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">巴中</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">广元</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">攀枝花</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">遂宁</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">宜宾</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">眉山</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">四川</td>
+                    <td width="30%">雅安</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">云南</td>
+                    <td width="30%">保山</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">云南</td>
+                    <td width="30%">楚雄</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">云南</td>
+                    <td width="30%">文山</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">云南</td>
+                    <td width="30%">昭通</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">云南</td>
+                    <td width="30%">红河</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">云南</td>
+                    <td width="30%">临沧</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">云南</td>
+                    <td width="30%">瑞丽</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">贵州</td>
+                    <td width="30%">六盘水</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">贵州</td>
+                    <td width="30%">黔西南</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">贵州</td>
+                    <td width="30%">毕节</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">上海</td>
+                    <td width="30%">上海<span style="color:red;">*</span></td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">浙江</td>
+                    <td width="30%">丽水<span style="color:red;">*</span></td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">江苏</td>
+                    <td width="30%">南通<span style="color:red;">*</span></td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">安徽</td>
+                    <td width="30%">芜湖</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">安徽</td>
+                    <td width="30%">铜陵</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">安徽</td>
+                    <td width="30%">马鞍山</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">安徽</td>
+                    <td width="30%">宣城</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">安徽</td>
+                    <td width="30%">淮南</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">安徽</td>
+                    <td width="30%">淮北</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">安徽</td>
+                    <td width="30%">滁州</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">安徽</td>
+                    <td width="30%">池州</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">安徽</td>
+                    <td width="30%">黄山</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">江西</td>
+                    <td width="30%">景德镇</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">江西</td>
+                    <td width="30%">新余</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">江西</td>
+                    <td width="30%">鹰潭</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">河南</td>
+                    <td width="30%">洛阳</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖北</td>
+                    <td width="30%">武汉</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖北</td>
+                    <td width="30%">十堰</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖北</td>
+                    <td width="30%">荆州</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖北</td>
+                    <td width="30%">荆门</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖北</td>
+                    <td width="30%">孝感</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖北</td>
+                    <td width="30%">黄冈</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">湖北</td>
+                    <td width="30%">咸宁</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">北京</td>
+                    <td width="30%">北京<span style="color:red;">*</span></td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">河北</td>
+                    <td width="30%">邢台<span style="color:red;">*</span></td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">吉林</td>
+                    <td width="30%">吉林</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">辽宁</td>
+                    <td width="30%">鞍山</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">辽宁</td>
+                    <td width="30%">抚顺</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">陕西</td>
+                    <td width="30%">西安<span style="color:red;">*</span></td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">陕西</td>
+                    <td width="30%">榆林</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">陕西</td>
+                    <td width="30%">延安</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">陕西</td>
+                    <td width="30%">汉中</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">陕西</td>
+                    <td width="30%">咸阳</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">陕西</td>
+                    <td width="30%">渭南</td>
+                </tr>
+
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">新疆</td>
+                    <td width="30%">乌鲁木齐</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">甘肃</td>
+                    <td width="30%">嘉峪关</td>
+                </tr>
+                <tr>
+                    <td class="num" width="30%">1</td>
+                    <td class="sp" width="40%">甘肃</td>
+                    <td width="30%">平凉</td>
+                </tr>
+                <tr>
+                    <td colspan="3">注：<span style="color:red;">*</span>表示增网城市</td>
+                </tr>
+            </table>
+        </div>
+        <div class="img"><img src="img/njhide.png" alt=""></div>
+    </div>
+</div>
+
+
+
+
+
+
+<!--PC端部分的底部部分-->
+<div class="ajax-footer">
+    <div class="footer bocweb-footer">
+        <!-- 上部分-->
+        <div class="top">
+            <div class="w1680 f-cb">
+                <div class="fll">
+                    <div class="attention f-cb">
+                        <div class="p">关注北汽新能源</div>
+                        <div class="bsb">
+                            <img src="img/weibo.png" alt="北汽新能源官方微博">
+                        </div>
+                        <div class="sbs">
+                            <img src="img/img-21.jpg" alt="北汽新能源官方微信">
+                        </div>
+                    </div>
+                    <div class="list f-cb">
+                        <div class="ul">
+                            <div class="box">
+                                <div class="n-box">
+                                    <p>购车服务</p>
+                                    <a href="serviceAftersale.html" title="售后服务">售后服务</a>
+                                    <a href="commonProblem.html" title="常见问题">常见问题</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="n-box">
+                                    <p>新闻资讯</p>
+                                    <a href="newsInformation_two.html" title="品牌动态">品牌动态</a>
+                                    <a href="newsInformation_two.html" title="媒体测评">媒体测评</a>
+                                    <a href="newsInformation_two.html" title="促销活动">促销活动</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="n-box">
+                                    <p>出租社区</p>
+                                    <a href="community.html" title="车主活动">车主活动</a>
+                                    <a href="community.html" title="车主故事">车主故事</a>
+                                    <a href="community.html" title="用户分享">用户分享</a>
+                                    <a href="community.html" title="留言反馈">留言反馈</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="n-box">
+                                    <p>轻享平台</p>
+                                    <a href="lightEnjoymentPlatform.html" title="新手指南">新手指南</a>
+                                    <a href="lightEnjoymentPlatform.html" title="用车价格">用车价格</a>
+                                    <a href="lightEnjoymentPlatform.html" title="轻享故事">轻享故事</a>
+                                    <a href="lightEnjoymentPlatform.html" title="轻享APP">轻享APP</a>
+                                    <a href="lightEnjoymentPlatform.html" title="常见问题">常见问题</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="n-box">
+                                    <p>关于我们</p>
+                                    <a href="about.html" title="北汽新能源">北汽新能源</a>
+                                    <a href="about.html" title="创新成果">创新成果</a>
+                                    <a href="about.html" title="荣誉关怀">荣誉关怀</a>
+                                    <a href="about.html" title="员工风采">员工风采</a>
+                                    <a href="about.html" title="卫蓝大事记">卫蓝大事记</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 预约试驾部分-->
+                <div class="frr">
+                    <a class="click-a ab more-btn" href="all.html">
+                        <div class="div">
+                            <img src="img/img-20.png" alt="预约试驾">
+                            <p class="p">预约试驾</p>
+                        </div>
+                    </a>
+                    <a class="click-a ac more-btn" href="findUs.html">
+                        <div class="div">
+                            <img src="img/img-21.png" alt="经销商查询">
+                            <p class="p">经销商查询</p>
+                        </div>
+                    </a>
+                    <!-- 分享部分-->
+                    <div class="shart">
+                        <div class="to">分享到：</div>
+                        <div class="bdsharebuttonbox">
+                            <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                            <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                            <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                            <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+                            <a href="#" class="bds_more" data-cmd="more"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 下部分-->
+        <div class="bot">
+            <div class="w1680 f-cb">
+                <div class="fll">
+                    <a href="#">经销商招募</a>
+                    <a href="#">企业采购</a>
+                    <a href="#">工作机会</a>
+                    <a href="#">联系我们</a>
+                    <a href="#" class="cur">下载中心</a>
+                </div>
+                <div class="frr">
+                    <p style="opacity: .8;">
+                        Copyright © 2017 BAIC BJEV All  Rights Reserved 京ICP15020473号－2&nbsp;
+                        <span id="cnzz_stat_icon_1264326221">
+                            <!-- 统计站长-->
+                            <a href="http://www.cnzz.com/stat/website.php?web_id=1264326221" target="_blank" title="站长统计">
+                                <img border="0" hspace="0" vspace="0" src="img/pic.gif">
+                            </a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--手机端部分的底部部分-->
+<div class="ajax-footer-mobile">
+    <div class="footer-mobile ovh bocweb-nav">
+        <ul class="topnav f-cb">
+            <li>
+                <p>车型一览</p>
+                <div class="slid">
+                    <a href="detile.html">EU5</a>
+                    <a href="detile.html">EX360</a>
+                    <a href="detile.html">EC3</a>
+                    <a href="detile.html">EU快换版</a>
+                    <a href="detile.html">EC220租售通</a>
+                </div>
+            </li>
+            <li>
+                <p>购车服务</p>
+                <div class="slid">
+                    <a href="serviceAftersale.html">售后服务</a>
+                    <a href="platformQuestion.html" title="常见问题">常见问题</a>
+                </div>
+            </li>
+            <li>
+                <p>新闻资讯</p>
+                <div class="slid">
+                    <a href="newsInformation_two.html" title="品牌动态">品牌动态</a>
+                    <a href="newsInformation_two.html" title="媒体测评">媒体测评</a>
+                    <a href="newsInformation_two.html" title="促销活动">促销活动</a>
+                </div>
+            </li>
+            <li>
+                <p>车主社区</p>
+                <div class="slid">
+                    <a href="community.html">车主活动</a>
+                    <a href="community.html">车主故事</a>
+                    <a href="community.html">用户分享</a>
+                    <a href="community.html">留言反馈</a>
+                </div>
+            </li>
+            <li>
+                <p>关于我们</p>
+                <div class="slid">
+                    <a href="about.html" title="北汽新能源">北汽新能源</a>
+                    <a href="about.html" title="创新成果">创新成果</a>
+                    <a href="about.html" title="荣誉关怀">荣誉关怀</a>
+                    <a href="about.html" title="员工风采">员工风采</a>
+                    <a href="about.html" title="卫蓝大事记">卫蓝大事记</a>
+                </div>
+            </li>
+            <li>
+                <p class="xtit"><a href="all.html" title="预约试驾">预约试驾</a></p>
+            </li>
+            <li>
+                <p class="xtit"><a href="findUs.html" title="经销商查询">经销商查询</a></p>
+            </li>
+        </ul>
+        <div class="mfbox">
+            <div>
+                <img src="img/weibo2.jpg" alt="北汽新能源官方微信">
+            </div>
+        </div>
+        <div class="fout f-cb">
+            <a class="fl" style="margin-bottom:5px;" href="#">经销商招募</a>
+            <a class="fl" style="margin-bottom:5px;" href="#">企业采购</a>
+            <a class="fl" style="margin-bottom:5px;" href="#">工作机会</a>
+            <a class="fl" style="margin-bottom:5px;" href="#">联系我们</a>
+        </div>
+        <div class="bot">
+            <p>Copyright  2017 BAIC BJEV All  Rights Reserved</p>
+        </div>
+    </div>
+</div>
+<div class="cnzz-box">
+    <script type="text/javascript">
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cspan id='cnzz_stat_icon_1264326221'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1264326221%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</div>
+</body>
+</html>
+<!--PC端导航栏部分的js-->
+<script>
+    // $(".header .bot .slide").click(function(){
+    // 	if ($(this).hasClass('cur')) {
+    // 		$(".header .bot .slide .bbot").slideUp()
+    // 		$(".header .bot .slide").removeClass('cur')
+    // 	}else{
+    // 		$(".header .bot .slide .bbot").slideDown()
+    // 		$(".header .bot .slide").addClass('cur')
+    // 	}
+    // })
+    var _height = window.innerHeight;
+    var _width =  window.innerWidth;
+
+    /* $(".c-slide .acti").click(function(){
+     $(".header-ajax").fadeIn();
+     var headerajax = "/indexpicture/headerAjax.htm";
+     $(".header-ajax").load(headerajax)
+     });
+
+     $(".c-slide .find").click(function(){
+     $(".syb").fadeIn();
+     var headerajax = "/indexpicture/inputAjax.htm";
+     $(".syb").load(headerajax,function(){
+     $(".syb .box").animate({opacity:"1",marginTop:"-214px"})
+     })
+     }); */
+
+    $(".header .bot .slide").hover(function() {
+        $(".header .bot .slide .bbot").stop(true,true).slideDown()
+        $(".header .bot .slide").addClass('cur')
+    }, function() {
+        $(".header .bot .slide .bbot").stop(true,true).slideUp()
+        $(".header .bot .slide").removeClass('cur')
+    });
+
+    $(".header .search-box .img").click(function(){
+        $(".header .pop-up").addClass('cur')
+        $(this).addClass('cur')
+
+        $(".header .search-box .img img").hide();
+        $(".header .search-box .img input").show();
+    });
+
+    $(".header .pop-up .hide").click(function(){
+        $(".header .pop-up").removeClass('cur')
+        $(".header .search-box .img").removeClass('cur')
+
+        $(".header .search-box .img img").show();
+        $(".header .search-box .img input").hide();
+    });
+
+    $(".header .right .language").hover(function() {
+        $(this).children('.bbot').stop(true,true).slideDown()
+    }, function() {
+        $(this).children('.bbot').stop(true,true).slideUp()
+    })
+
+
+    if (_width>=1200) {
+        var nav = (_width - 1143)/2;
+        $(".header .bot .nav").css("margin-left",nav);
+    }else{
+        var nav = (_width - 1003)/2;
+        $(".header .bot .nav").css("margin-left",nav);
+    }
+    if (_width<=1300) {
+        var bodyc = $("body,html").width() - 41
+        $(".header .slide .bbot").width(bodyc)
+    }else if(_width<=1500){
+        $(".header .slide .bbot").width(1033)
+    }else{
+        $(".header .slide .bbot").width(1300)
+    }
+
+    $(window).resize(function(){
+        var _height = window.innerHeight
+        var _width =  window.innerWidth
+
+        if (_width>=1200) {
+            var nav = (_width - 1143)/2;
+            $(".header .bot .nav").css("margin-left",nav)
+        }else{
+            var nav = (_width - 953)/2;
+            $(".header .bot .nav").css("margin-left",nav)
+        }
+        if (_width<=1300) {
+            var bodyc = $("body,html").width() - 41
+            $(".header .slide .bbot").width(bodyc)
+        }else if(_width<=1500){
+            $(".header .slide .bbot").width(1033)
+        }else{
+            $(".header .slide .bbot").width(1300)
+        }
+    })
+
+
+
+
+
+    $(".header .bot .slide .bbot ul li:last").addClass('cur')
+    if ($(window).width()>1024) {
+        $(function(){
+            var k = true;
+            var _length = $(".switch-box").length;
+            var scrollFunc = function (e) {
+                e = e || window.event;
+                if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件
+                    if (e.wheelDelta > 0 && k == true) { //当滑轮向上滚动时
+                        $(".click-fixed1").fadeIn()
+                    }
+                    if (e.wheelDelta < 0 && k == true) { //当滑轮向下滚动时
+                        $(".click-fixed1").fadeOut()
+                    }
+                } else if (e.detail) {  //Firefox滑轮事件
+                    if (e.detail> 0 && k == true) { //当滑轮向上滚动时
+                        $(".click-fixed1").fadeIn()
+                    }
+                    if (e.detail< 0 && k == true) { //当滑轮向下滚动时
+                        $(".click-fixed1").fadeOut()
+                    }
+                }
+            }
+            //给页面绑定滑轮滚动事件
+            if (document.addEventListener) {//firefox
+                document.addEventListener('DOMMouseScroll', scrollFunc, false);
+            }
+            //滚动滑轮触发scrollFunc方法  //ie 谷歌
+            window.onmousewheel = document.onmousewheel = scrollFunc;
+
+            if (document.readyState=="complete")
+            {
+            }
+            else
+            {
+                document.onreadystatechange = function()
+                {
+                    if (document.readyState == "complete")
+                    {
+
+                    }
+                }
+            }
+        })
+    }
+
+    $(window).scroll(function(){
+        if ($(window).width()>1024) {
+            if ($(window).scrollTop()>=30) {
+                $(".header").addClass('cur')
+            }else{
+                $(".header").removeClass('cur')
+            }
+
+            var mk = 300
+            var k = $(window).scrollTop();
+            if (k<=mk) {
+                $(".click-fixed1").addClass('cur')
+            }else{
+                $(".click-fixed1").removeClass('cur')
+            }
+        };
+    })
+
+    $(".click-fixed1").click(function(){
+        $("html,body").stop().animate({scrollTop:$("body").offset().top},800);
+    });
+
+    //百度统计代码
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement('script');
+        hm.src = 'https://hm.baidu.com/hm.js?61d3db97ed62adb0bc061f69bfef250b';
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+
+
+
+
+    //搜索
+    /* $(".hide").click(function(){
+     location.href="/models/search.htm?key="+$("#search").val();
+     }); */
+</script>
+<!--手机端导航栏部分的js-->
+<script>
+
+    $(function(){
+
+
+        $(".navbtn").click(function(){
+            if ($(this).children('.line').hasClass('cur')) {
+                $(this).children('.line').removeClass('cur');
+                // $(".header .slide").slideUp();
+                $(this).removeClass('cur')
+                $(".slidebox").slideUp();
+                $("body,html").removeClass("ovh-f");
+            }else{
+                $(this).addClass('cur')
+                $(this).children('.line').addClass("cur");
+                $(".slidebox").slideDown();
+                // $(".header .slide").slideDown();
+                $("body,html").addClass("ovh-f");
+            }
+        })
+
+        $(".clse").click(function(){
+            $(".hjj").fadeIn()
+        });
+        $(".hjj img").click(function(){
+            $(".hjj").fadeOut()
+        });
+
+        $(".slidebox").height(window.innerHeight-50);
+        $(".slidebox li p").click(function(){
+            if ($(this).hasClass('cur')) {
+                $(this).removeClass('cur')
+                $(this).siblings('.box').slideUp();
+            }else{
+                $(this).addClass('cur');
+                $(this).siblings('.box').slideDown();
+                $(this).parents("li").siblings('li').children('.box').slideUp();
+                $(this).parents("li").siblings('li').children('p').removeClass('cur')
+
+            }
+        });
+
+
+        $(function(){
+            var k = true;
+            var _length = $(".switch-box").length;
+            var scrollFunc = function (e) {
+                e = e || window.event;
+                if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件
+                    if (e.wheelDelta > 0 && k == true) { //当滑轮向上滚动时
+                        $(".click-fixed").fadeIn()
+                    }
+                    if (e.wheelDelta < 0 && k == true) { //当滑轮向下滚动时
+                        $(".click-fixed").fadeOut()
+                    }
+                } else if (e.detail) {  //Firefox滑轮事件
+                    if (e.detail> 0 && k == true) { //当滑轮向上滚动时
+                        $(".click-fixed").fadeIn()
+                    }
+                    if (e.detail< 0 && k == true) { //当滑轮向下滚动时
+                        $(".click-fixed").fadeOut()
+                    }
+                }
+            }
+            //给页面绑定滑轮滚动事件
+            if (document.addEventListener) {//firefox
+                document.addEventListener('DOMMouseScroll', scrollFunc, false);
+            }
+            //滚动滑轮触发scrollFunc方法  //ie 谷歌
+            window.onmousewheel = document.onmousewheel = scrollFunc;
+
+            if (document.readyState=="phone")
+            {
+            }
+            else
+            {
+                document.onreadystatechange = function()
+                {
+                    if (document.readyState == "phone")
+                    {
+
+                    }
+                }
+            }
+        })
+        $(".click-fixed2").click(function(){
+            $("html,body").stop().animate({scrollTop:$("body").offset().top},800);
+        });
+
+
+        $(window).scroll(function(){
+            var mk = 300
+            var k = $(window).scrollTop();
+            if (k<=mk) {
+                $(".click-fixed").addClass('cur')
+            }else{
+                $(".click-fixed").removeClass('cur')
+            }
+
+            if ($(window).width()<=1024) {
+                if ($(window).scrollTop() > 500) {
+                    $(".back-fixed").fadeIn();
+                    $(".back-fixed").click(function(){
+                        $('body,html').stop().animate({scrollTop:$("body").offset().top},800);
+                    });
+                }else{
+                    $(".back-fixed").fadeOut();
+                }
+            };
+        })
+
+
+
+    })
+</script>
+<!--footer部分的js-->
+<script type="text/javascript" src="js/optiscroll.js"></script>
+<script type="text/javascript" >
+    var jiathis_config={
+        summary:"",
+        shortUrl:false,
+        hideMore:false
+    }
+
+    var _height = window.innerHeight
+    var _width =  window.innerWidth
+    $(".footer .top .frr .friends .click").click(function(){
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+            $(this).siblings('.slide').slideUp(300);
+        }else{
+            $(this).addClass('cur');
+            $(this).siblings('.slide').slideDown(300);
+        }
+    });
+
+    var os1 = new Optiscroll(document.getElementById('os1'), { maxTrackSize: 60, preventParentScroll: true });
+
+
+    $(".bds_more").mousemove(function(){
+        return false
+    });
+
+    $(window).resize(function(){
+        if (_width<=1200) {
+            var footerwidth = ($(".footer .top .w1680").width() - 320)*0.9;
+            $(".footer .top .fll").width(footerwidth)
+        }else{
+            $(".footer .top .fll").css("width","70%")
+        }
+    });
+
+    if (_width<=1200) {
+        var footerwidth = ($(".footer .top .w1680").width() - 320)*0.9;
+        $(".footer .top .fll").width(footerwidth)
+    }else{
+        $(".footer .top .fll").css("width","70%")
+    }
+
+    var Lensu = $(".footer .top .frr .friends .slide a").length;
+    if (Lensu>3) {
+        $(".friends .slide").css("height","150px");
+    }else if (Lensu<=3){
+        $(".friends .slide").css("height",(Lensu*50)+'px');
+    }
+
+
+</script>
+<script>
+    window._bd_share_config={
+        common : {bdText : '1',bdDesc : '2',bdUrl : '3',bdPic : '4'
+        },"share":{},"selectShare":{
+            "bdContainerClass":null,"bdSelectMiniList":
+                    ["qzone","tsina","tqq","weixin","mshare"]
+        }};with(document)0[(getElementsByTagName('head')[0]||body)
+            .appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion= '+~(-new Date()/36e5)];
+</script>
+<!--手机端footer部分的js-->
+<script type="text/javascript">
+    define = null;
+    require = null;
+</script>
+<script>
+    window._bd_share_config={"common":{
+        "bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"",
+        "bdStyle":"0","bdSize":"16"},"share":{},"selectShare":{
+        "bdContainerClass":null,"bdSelectMiniList":
+                ["qzone","tsina","tqq","weixin","mshare"]
+    }};with(document)0[(getElementsByTagName('head')[0]||body)
+            .appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script type="text/javascript">
+    var noncestr = 'sRzfw5Jl';
+    var timestamp = '1542782060';
+    var signature = 'd65f7e446f9f151a50b790501489535f86334fdc';
+    var appid = 'wx87c3fdace328f118';
+    wx.config({
+        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        appId: appid, // 必填，公众号的唯一标识
+        timestamp: timestamp, // 必填，生成签名的时间戳
+        nonceStr: noncestr, // 必填，生成签名的随机串
+        signature: signature,// 必填，签名，见附录1
+        jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+    });
+
+    wx.ready(function(){
+        // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
+        wx.onMenuShareTimeline({
+            title: document.title, //分享标题
+            link: window.location.href.split('#')[0], //分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: 'http://www.bjev.com.cn/beiqifiles/newsInformation/2017/09/22/201709221107250384.jpg', //分享图标
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+        wx.onMenuShareAppMessage({
+            title: document.title, //分享标题
+            link: window.location.href.split('#')[0], //分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: 'http://www.bjev.com.cn/beiqifiles/newsInformation/2017/09/22/201709221107250384.jpg', //分享图标
+            desc: 'http://www.bjev.com.cn/', // 分享描述
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+    });
+
+    $(".footer-mobile .topnav li").click(function(){
+        if ($(this).hasClass('cur')) {
+            $(this).children('.slid').slideUp();
+            $(this).removeClass('cur')
+        }else{
+            $(this).children('.slid').slideDown();
+            $(this).addClass('cur');
+
+            $(this).siblings('li').removeClass('cur');
+            $(this).siblings('li').children('.slid').slideUp();
+        }
+    });
+</script>
+
+<script>
+    var os1 = new Optiscroll(document.getElementById('os8'), { maxTrackSize: 60, preventParentScroll: true });
+
+    var _width = $(window).width()
+
+    $(".dealer-box1 .fll .d-click").click(function(){
+        $(".dea-bgg").fadeIn();
+    })
+
+    $(".dea-bgg").click(function(){
+        $(this).fadeOut()
+    });
+    $(".dea-table .img").click(function(){
+        $(".dea-bgg").fadeOut()
+    });
+    $(".dea-table").click(function(){
+        return false
+    });
+
+    $(".cardetail-section").eq(0).show();
+
+    $("[name^='sec-']").click(function () {
+        $("[name^='sec-']").removeClass("car-nav-item-active");
+        $(this).addClass("car-nav-item-active");
+
+        $("[id^='sec-']").hide();
+
+        var selectdEle = $(this).attr("name");
+        $("[id=" + selectdEle + "]").show();
+    });
+
+    $(".car-model").mouseover(function () {
+        var target = $(this);
+        target.find(".car-model-action").show();
+    });
+
+    $(".car-model").mouseout(function () {
+        var target = $(this);
+        target.find(".car-model-action").hide();
+    });
+
+    $('.dea-table .table2 tr:even td').css("background","#fcfcfc")
+    $('.dea-table .table2 tr').each(function(){
+        var k = $(this).index()+1
+        $(this).children('.num').text(k)
+    });
+
+
+    $(".dealer-tit.sp").addClass('cur')
+    $(".dealer-box1").addClass('cur')
+
+    var l_height = $(window).height()/4*3
+
+    $(window).scroll(function(){
+        if ($(window).scrollTop()>=$(".dealer-box2").offset().top - l_height) {
+
+            $(".dealer-box2 .d-title").addClass('cur')
+            $(".dealer-box2 ul").addClass('cur')
+        }
+        if ($(window).scrollTop()>=$(".dealer-box3").offset().top - l_height) {
+            $(".dealer-box3 .d-title").addClass('cur')
+            $(".dealer-box3 .img").addClass('cur')
+        }
+
+        if ($(window).scrollTop()>=$(".dealer-box4").offset().top - l_height) {
+            $(".dealer-box4 .d-title").addClass('cur');
+            Enter($(".dealer-box4 .box").children('').eq(0), "top", 0, 6, 600, 300)
+        }
+        if ($(window).scrollTop()>=$(".dealer-box5").offset().top - l_height) {
+            $(".dealer-box5 .d-title").addClass('cur')
+            $(".dealer-box5 .img").addClass('cur')
+            $(".dealer-box5 .sp").addClass('cur')
+        }
+    })
+    $(".dealer-box6 li").eq(3).addClass('cur')
+
+    $(".dealer-box3 .img img").click(function(){
+        if (_width<1024) {
+            var k = $(this).attr("src");
+            window.open(k)
+        };
+    });
+
+    $(".dealer-box4 .box img").click(function(){
+        if (_width<1024) {
+            var k = $(this).attr("src");
+            window.open(k)
+        };
+    });
+
+    if (_width<1024) {
+        var k1 = $(".dealer-box5 .img").data("mob");
+        $(".dealer-box5 .img img").attr({
+            src: k1,
+        })
+
+        var k2 = $(".dealer-banner").data("mob");
+        $(".dealer-banner img").attr({
+            src: k2,
+        })
+    }else{
+        var k1 = $(".dealer-box5 .img").data("pc");
+        $(".dealer-box5 .img img").attr({
+            src: k1,
+        })
+
+        var k2 = $(".dealer-banner").data("pc");
+        $(".dealer-banner img").attr({
+            src: k2,
+        })
+    }
+
+    $(window).resize(function(){
+        var _width = $(window).width()
+
+        if (_width<1024) {
+            var k1 = $(".dealer-box5 .img").data("mob");
+            $(".dealer-box5 .img img").attr({
+                src: k1,
+            })
+
+            var k2 = $(".dealer-banner").data("mob");
+            $(".dealer-banner img").attr({
+                src: k2,
+            })
+        }else{
+            var k1 = $(".dealer-box5 .img").data("pc");
+            $(".dealer-box5 .img img").attr({
+                src: k1,
+            })
+
+            var k2 = $(".dealer-banner").data("pc");
+            $(".dealer-banner img").attr({
+                src: k2,
+            })
+        }
+    });
+
+    var header = contextPath+"/indexpicture/pc/header.htm";
+    $(".ajax-header").load(header,function(){
+        $(".header").addClass('kon');
+    });
+</script>
