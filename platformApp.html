@@ -1,0 +1,972 @@
+<script>
+    var contextPath = '';
+</script>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="content-language" content="zh-CN" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="keywords" content="轻享平台—轻享App" />
+    <meta name="description" content="轻享平台—轻享App" />
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>轻享平台_轻享App</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/media.css" rel="stylesheet" type="text/css" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/optiscroll.css" rel="stylesheet" type="text/css" />
+    <link href="css/htmleaf-demo.css" rel="stylesheet" type="text/css" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.transit.js"></script>
+    <script type="text/javascript" src="js/prefixfree.min.js"></script>
+    <script type="text/javascript" src="js/html5.js"></script>
+    <script type="text/javascript" src="js/bocfe.js"></script>
+    <script src="js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript" src="js/plug.preload.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/smooth.js"></script>
+    <script type="text/javascript" src="js/jquery.superslide.2.1.1.js"></script>
+    <script type="text/javascript" src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+    <script type="text/javascript" src="js/optiscroll.js"></script>
+    <script type="text/javascript" src="js/platform_app.js"></script>
+</head>
+<body>
+<!--PC端的导航栏部分-->
+<div class="ajax-header">
+    <div class="header bocweb-logo">
+        <!-- 上栏部分-->
+        <div class="top">
+            <a href="chargingPile.html">充电服务</a>
+            <a href="platform.html">轻享平台</a>
+        </div>
+        <!-- 下栏部分-->
+        <div class="bot f-cb">
+            <!-- logo部分-->
+            <div class="logo">
+                <a href="/">
+                    <img src="img/201708181439500850.jpg" alt="bj-logo.jpg">
+                </a>
+            </div>
+            <!-- 预览部分-->
+            <div class="slide">
+                <!-- 下拉小箭头-->
+                <div class="ttop">车型一览<img src="img/img-01.png" alt="车型预览"></div>
+                <!-- 预览二级菜单-->
+                <div class="bbot">
+                    <ul class="f-cb">
+                        <li>
+                            <div class="bx">
+                                <div class="te">EU</div>
+                                <a href="detile.html">
+                                    <div class="carimg">
+                                        <img src="img/201804241950590352.png" alt="eu5.png">
+                                    </div>
+                                    <div class="tit">EU5</div>
+                                    <div class="more">了解详情<img src="img/img-45.png" alt="了解详情"></div>
+                                </a>
+                            </div>
+                            <div class="bx">
+                                <div class="te">EX</div>
+                                <a href="detile.htm">
+                                    <div class="carimg">
+                                        <img src="img/201803252337120308.png" alt="ex360封面.png">
+                                    </div>
+                                    <div class="tit">EX360</div>
+                                    <div class="more">了解详情<img src="img/img-45.png" alt="了解详情"></div>
+                                </a>
+                            </div>
+                            <div class="bx">
+                                <div class="te">EC</div>
+                                <a href="detile.htm">
+                                    <div class="carimg">
+                                        <img src="img/201808271646540348.png" alt="90度蓝-剪切.png">
+                                    </div>
+                                    <div class="tit">EC3</div>
+                                    <div class="more">了解详情<img src="img/img-45.png" alt="了解详情"></div>
+                                </a>
+                            </div>
+                            <div class="bx">
+                                <div class="te">快换</div>
+                                <a href="detile.htm">
+                                    <div class="carimg">
+                                        <img src="img/201807051645000665.png" alt="QQ图片20180705164353.png">
+                                    </div>
+                                    <div class="tit">EU快换版</div>
+                                    <div class="more">了解详情<img src="img/img-45.png" alt="了解详情"></div>
+                                </a>
+                            </div>
+                            <div class="bx">
+                                <div class="te">租售通</div>
+                                <a href="detile.htm">
+                                    <div class="carimg">
+                                        <img src="img/201807301140550488.png" alt="EC.png">
+                                    </div>
+                                    <div class="tit">EC220租售通</div>
+                                    <div class="more">了解详情<img src="img/img-45.png" alt="了解详情"></div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 栏目部分-->
+            <div class="nav bocweb-nav">
+                <a href="index.html">首页</a>
+                <!-- <a href="/carservice/service.htm">购车服务</a> -->
+                <a href="serviceAftersale.html">购车服务</a>
+                <a href="newsInformation_two.html">新闻资讯</a>
+                <a href="ownersCommunity.html">车主社区</a>
+                <a href="purchase.html">企业采购</a>
+                <a href="about.html">关于我们</a>
+            </div>
+            <!-- 商城二维码部分-->
+            <div class="right">
+                <div class="search-box">
+                    <form action="search.html" class="input-kw-form">
+                        <div class="img">
+                            <img src="img/img-02.png" alt="放大镜">
+                            <input value="" type="submit">
+                        </div>
+                        <div class="pop-up">
+                            <input placeholder="请输入内容" class="te" type="search" id="search" name="key">
+                            <div class="hide"><img src="img/img-03.png" alt="删除"></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="shopcar por">
+                    <a href="javascript:;">
+                        商城
+                    </a>
+                    <div class="shop_img">
+                        <img src="img/erweima.jpg" alt="">
+                        <p>扫码登陆卫蓝合伙人微商城<br>即刻下订</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header-ajax"></div>
+    <div class="syb"></div>
+    <div class="click-fixed click-fixed1"></div>
+</div>
+<!--手机端部分的导航栏部分-->
+<div class="ajax-header-mobile">
+    <div class="header-mobile">
+        <!-- logo部分-->
+        <div class="logo">
+            <a href="/">
+                <img src="img/img-12.jpg" alt="北汽新能源logo">
+            </a>
+        </div>
+        <!-- 更多下拉按钮-->
+        <div class="navbtn bocweb-nav">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <!--小汽车 -->
+        <div class="clse">
+            <img src="img/q-12.png" alt="查找你的北汽新能源">
+        </div>
+        <!-- 车型一览部分-->
+        <a href="proAllList.html" class="che-btn">
+            <p>车型一览</p>
+        </a>
+        <!-- 二级菜单-->
+        <div class="slidebox">
+            <!-- 下拉栏目-->
+            <ul class="f-cb">
+                <li>
+                    <a class="sp" href="/">首页</a>
+                </li>
+                <li>
+                    <p>车型一览</p>
+                    <div class="box">
+                        <a href="detile.html">EU5</a>
+                        <a href="detile.html">EX360</a>
+                        <a href="detile.html">EC3</a>
+                        <a href="detile.html">EU快换版</a>
+                        <a href="detile.html">EC220租售通</a>
+                    </div>
+                </li>
+                <li>
+                    <p>购车服务</p>
+                    <div class="box">
+                        <!-- <a href="/carservice/service.htm">金融政策</a> -->
+                        <a href="serviceAftersale.html">售后服务</a>
+                        <a href="chargingPile.html">充电桩服务</a>
+                    </div>
+                </li>
+                <li>
+                    <p>新闻资讯</p>
+                    <div class="box">
+                        <a href="newsInformation_two.html">品牌动态</a>
+                        <a href="newsInformation_two.html">媒体测评</a>
+                        <a href="newsInformation_two.html">促销活动</a>
+                    </div>
+                </li>
+                <li>
+                    <p>车主社区</p>
+                    <div class="box">
+                        <a href="community.html">车主活动</a>
+                        <a href="community.html">车主故事</a>
+                        <a href="community.html">用户分享</a>
+                        <a href="community.html">留言反馈</a>
+                    </div>
+                </li>
+                <li>
+                    <p>关于我们</p>
+                    <div class="box">
+                        <a href="about.html" title="">北汽新能源</a>
+                        <a href="about.html" title="">创新成果</a>
+                        <a href="about.html" title="">荣誉关怀</a>
+                        <a href="about.html" title="">员工风采</a>
+                        <a href="about.html" title="">卫蓝大事记</a>
+                    </div>
+                </li>
+                <li>
+                    <p>轻享平台</p>
+                    <div class="box">
+                        <a href="lightEnjoymentPlatform.html" title="">新手指南</a>
+                        <a href="lightEnjoymentPlatform.html" title="">用车价格</a>
+                        <a href="lightEnjoymentPlatform.html" title="">轻享故事</a>
+                        <a href="lightEnjoymentPlatform.html" title="">轻享APP</a>
+                        <a href="lightEnjoymentPlatform.html" title="">常见问题</a>
+                    </div>
+                </li>
+                <li>
+                    <p>充电服务</p>
+                    <div class="box">
+                        <a href="http://www.bjev520.com/jsp/beiqi/pcmap/do/index.jsp" title="">查找充电桩</a>
+                        <a href="chargingPile.html" title="">充电桩服务</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- 搜索框部分-->
+            <div class="newsear">
+                <form action="search.html">
+                    <input class="sub" value="" type="submit">
+                    <input placeholder="搜索" class="pt"  type="search" name="key" >
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--查找新能源部分 -->
+    <div class="hjj">
+        <form action="proList.html" method="post" id="findFrom">
+            <!-- 关闭按钮-->
+            <div class="khide">
+                <img src="img/njhide2.png" alt="删除">
+            </div>
+            <p>查找你的北汽新能源</p>
+            <select name="typeId" id="typeId">
+                <option value="820021">两厢车</option>
+                <option value="820022">三厢车</option>
+                <option value="820023">SUV</option>
+            </select>
+            <select name="priceId" id="priceId">
+                <option value="820024">5-10万</option>
+                <option value="820025">10-15万</option>
+                <option value="820026">15-20万</option>
+                <option value="820027">20万以上</option>
+            </select>
+            <select name="mileageId" id="mileageId">
+                <option value="820028">150-200公里</option>
+                <option value="820029">200-250公里</option>
+                <option value="820030">250-300公里</option>
+                <option value="820031">300-400公里</option>
+                <option value="820032">400公里以上</option>
+            </select>
+            <input type="submit">
+        </form>
+    </div>
+    <div class="click-fixed click-fixed2"></div>
+    <div class="back-fixed"></div>
+</div>
+
+
+
+<!--标题部分-->
+<div class="same sp spp">
+    <div class="same-pc f-cb w1400">
+        <div class="fll">轻享平台</div>
+        <div class="frr">
+            <a href="platform.html">新手指南</a>
+            <a href="platformPrice.html">用车价格</a>
+            <a href="platformStory.html">轻享故事</a>
+            <a class="cur" href="platformApp.html">轻享APP</a>
+            <a href="platformQuestion.html">常见问题</a>
+        </div>
+    </div>
+    <div class="same-mobile">
+        <div class="top">轻享APP</div>
+        <div class="bot">
+            <a href="platform.html">新手指南</a>
+            <a href="platformPrice.html">用车价格</a>
+            <a href="platformStory.html">轻享故事</a>
+            <a class="cur" href="platformApp.html">轻享APP</a>
+            <a href="platformQuestion.html">常见问题</a>
+        </div>
+    </div>
+</div>
+<div class="app">
+    <div style="background-image:url(img/img-44.jpg)" class="sbanner">
+        <div class="w1400 f-cb">
+            <div class="fll">
+                <img src="img/img-131.png" alt="轻享出行" />
+            </div>
+            <div class="frr">
+                <div class="imgte f-cb">
+                    <img src="img/img-132.png" alt="轻享出行" /><div class="">轻享出行</div>
+                </div>
+                <div class="te">
+                    <p>“轻享出行”是北汽集团旗下的新能源汽车共享产品，旨在通过互联网+物联网模式为人们提供方便、快捷、安全、可靠的自驾出行解决方案。用户的订车、用车、还车及订单支付等操作全部通过软件线上完成，真正实现了汽车共享。</p>
+                </div>
+                <div class="twoimg">
+                    <img src="img/img-134.png" alt="轻享出行" />
+                    <img src="img/img-135.png" alt="轻享出行" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--PC端部分的底部部分-->
+<div class="ajax-footer">
+    <div class="footer bocweb-footer">
+        <!-- 上部分-->
+        <div class="top">
+            <div class="w1680 f-cb">
+                <div class="fll">
+                    <div class="attention f-cb">
+                        <div class="p">关注北汽新能源</div>
+                        <div class="bsb">
+                            <img src="img/weibo.png" alt="北汽新能源官方微博">
+                        </div>
+                        <div class="sbs">
+                            <img src="img/img-21.jpg" alt="北汽新能源官方微信">
+                        </div>
+                    </div>
+                    <div class="list f-cb">
+                        <div class="ul">
+                            <div class="box">
+                                <div class="n-box">
+                                    <p>购车服务</p>
+                                    <a href="serviceAftersale.html" title="售后服务">售后服务</a>
+                                    <a href="commonProblem.html" title="常见问题">常见问题</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="n-box">
+                                    <p>新闻资讯</p>
+                                    <a href="newsInformation_two.html" title="品牌动态">品牌动态</a>
+                                    <a href="newsInformation_two.html" title="媒体测评">媒体测评</a>
+                                    <a href="newsInformation_two.html" title="促销活动">促销活动</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="n-box">
+                                    <p>出租社区</p>
+                                    <a href="community.html" title="车主活动">车主活动</a>
+                                    <a href="community.html" title="车主故事">车主故事</a>
+                                    <a href="community.html" title="用户分享">用户分享</a>
+                                    <a href="community.html" title="留言反馈">留言反馈</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="n-box">
+                                    <p>轻享平台</p>
+                                    <a href="lightEnjoymentPlatform.html" title="新手指南">新手指南</a>
+                                    <a href="lightEnjoymentPlatform.html" title="用车价格">用车价格</a>
+                                    <a href="lightEnjoymentPlatform.html" title="轻享故事">轻享故事</a>
+                                    <a href="lightEnjoymentPlatform.html" title="轻享APP">轻享APP</a>
+                                    <a href="lightEnjoymentPlatform.html" title="常见问题">常见问题</a>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="n-box">
+                                    <p>关于我们</p>
+                                    <a href="about.html" title="北汽新能源">北汽新能源</a>
+                                    <a href="about.html" title="创新成果">创新成果</a>
+                                    <a href="about.html" title="荣誉关怀">荣誉关怀</a>
+                                    <a href="about.html" title="员工风采">员工风采</a>
+                                    <a href="about.html" title="卫蓝大事记">卫蓝大事记</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 预约试驾部分-->
+                <div class="frr">
+                    <a class="click-a ab more-btn" href="all.html">
+                        <div class="div">
+                            <img src="img/img-20.png" alt="预约试驾">
+                            <p class="p">预约试驾</p>
+                        </div>
+                    </a>
+                    <a class="click-a ac more-btn" href="findUs.html">
+                        <div class="div">
+                            <img src="img/img-21.png" alt="经销商查询">
+                            <p class="p">经销商查询</p>
+                        </div>
+                    </a>
+                    <!-- 分享部分-->
+                    <div class="shart">
+                        <div class="to">分享到：</div>
+                        <div class="bdsharebuttonbox">
+                            <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                            <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                            <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                            <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+                            <a href="#" class="bds_more" data-cmd="more"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 下部分-->
+        <div class="bot">
+            <div class="w1680 f-cb">
+                <div class="fll">
+                    <a href="#">经销商招募</a>
+                    <a href="#">企业采购</a>
+                    <a href="#">工作机会</a>
+                    <a href="#">联系我们</a>
+                    <a href="#" class="cur">下载中心</a>
+                </div>
+                <div class="frr">
+                    <p style="opacity: .8;">
+                        Copyright © 2017 BAIC BJEV All  Rights Reserved 京ICP15020473号－2&nbsp;
+                        <span id="cnzz_stat_icon_1264326221">
+                            <!-- 统计站长-->
+                            <a href="http://www.cnzz.com/stat/website.php?web_id=1264326221" target="_blank" title="站长统计">
+                                <img border="0" hspace="0" vspace="0" src="img/pic.gif">
+                            </a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--手机端部分的底部部分-->
+<div class="ajax-footer-mobile">
+    <div class="footer-mobile ovh bocweb-nav">
+        <ul class="topnav f-cb">
+            <li>
+                <p>车型一览</p>
+                <div class="slid">
+                    <a href="detile.html">EU5</a>
+                    <a href="detile.html">EX360</a>
+                    <a href="detile.html">EC3</a>
+                    <a href="detile.html">EU快换版</a>
+                    <a href="detile.html">EC220租售通</a>
+                </div>
+            </li>
+            <li>
+                <p>购车服务</p>
+                <div class="slid">
+                    <a href="serviceAftersale.html">售后服务</a>
+                    <a href="platformQuestion.html" title="常见问题">常见问题</a>
+                </div>
+            </li>
+            <li>
+                <p>新闻资讯</p>
+                <div class="slid">
+                    <a href="newsInformation_two.html" title="品牌动态">品牌动态</a>
+                    <a href="newsInformation_two.html" title="媒体测评">媒体测评</a>
+                    <a href="newsInformation_two.html" title="促销活动">促销活动</a>
+                </div>
+            </li>
+            <li>
+                <p>车主社区</p>
+                <div class="slid">
+                    <a href="community.html">车主活动</a>
+                    <a href="community.html">车主故事</a>
+                    <a href="community.html">用户分享</a>
+                    <a href="community.html">留言反馈</a>
+                </div>
+            </li>
+            <li>
+                <p>关于我们</p>
+                <div class="slid">
+                    <a href="about.html" title="北汽新能源">北汽新能源</a>
+                    <a href="about.html" title="创新成果">创新成果</a>
+                    <a href="about.html" title="荣誉关怀">荣誉关怀</a>
+                    <a href="about.html" title="员工风采">员工风采</a>
+                    <a href="about.html" title="卫蓝大事记">卫蓝大事记</a>
+                </div>
+            </li>
+            <li>
+                <p class="xtit"><a href="all.html" title="预约试驾">预约试驾</a></p>
+            </li>
+            <li>
+                <p class="xtit"><a href="findUs.html" title="经销商查询">经销商查询</a></p>
+            </li>
+        </ul>
+        <div class="mfbox">
+            <div>
+                <img src="img/weibo2.jpg" alt="北汽新能源官方微信">
+            </div>
+        </div>
+        <div class="fout f-cb">
+            <a class="fl" style="margin-bottom:5px;" href="#">经销商招募</a>
+            <a class="fl" style="margin-bottom:5px;" href="#">企业采购</a>
+            <a class="fl" style="margin-bottom:5px;" href="#">工作机会</a>
+            <a class="fl" style="margin-bottom:5px;" href="#">联系我们</a>
+        </div>
+        <div class="bot">
+            <p>Copyright  2017 BAIC BJEV All  Rights Reserved</p>
+        </div>
+    </div>
+</div>
+<div class="cnzz-box">
+    <script type="text/javascript">
+        var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cspan id='cnzz_stat_icon_1264326221'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1264326221%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+</div>
+</body>
+</html>
+<!--PC端导航栏部分的js-->
+<script>
+    // $(".header .bot .slide").click(function(){
+    // 	if ($(this).hasClass('cur')) {
+    // 		$(".header .bot .slide .bbot").slideUp()
+    // 		$(".header .bot .slide").removeClass('cur')
+    // 	}else{
+    // 		$(".header .bot .slide .bbot").slideDown()
+    // 		$(".header .bot .slide").addClass('cur')
+    // 	}
+    // })
+    var _height = window.innerHeight;
+    var _width =  window.innerWidth;
+
+    /* $(".c-slide .acti").click(function(){
+     $(".header-ajax").fadeIn();
+     var headerajax = "/indexpicture/headerAjax.htm";
+     $(".header-ajax").load(headerajax)
+     });
+
+     $(".c-slide .find").click(function(){
+     $(".syb").fadeIn();
+     var headerajax = "/indexpicture/inputAjax.htm";
+     $(".syb").load(headerajax,function(){
+     $(".syb .box").animate({opacity:"1",marginTop:"-214px"})
+     })
+     }); */
+
+    $(".header .bot .slide").hover(function() {
+        $(".header .bot .slide .bbot").stop(true,true).slideDown()
+        $(".header .bot .slide").addClass('cur')
+    }, function() {
+        $(".header .bot .slide .bbot").stop(true,true).slideUp()
+        $(".header .bot .slide").removeClass('cur')
+    });
+
+    $(".header .search-box .img").click(function(){
+        $(".header .pop-up").addClass('cur')
+        $(this).addClass('cur')
+
+        $(".header .search-box .img img").hide();
+        $(".header .search-box .img input").show();
+    });
+
+    $(".header .pop-up .hide").click(function(){
+        $(".header .pop-up").removeClass('cur')
+        $(".header .search-box .img").removeClass('cur')
+
+        $(".header .search-box .img img").show();
+        $(".header .search-box .img input").hide();
+    });
+
+    $(".header .right .language").hover(function() {
+        $(this).children('.bbot').stop(true,true).slideDown()
+    }, function() {
+        $(this).children('.bbot').stop(true,true).slideUp()
+    })
+
+
+    if (_width>=1200) {
+        var nav = (_width - 1143)/2;
+        $(".header .bot .nav").css("margin-left",nav);
+    }else{
+        var nav = (_width - 1003)/2;
+        $(".header .bot .nav").css("margin-left",nav);
+    }
+    if (_width<=1300) {
+        var bodyc = $("body,html").width() - 41
+        $(".header .slide .bbot").width(bodyc)
+    }else if(_width<=1500){
+        $(".header .slide .bbot").width(1033)
+    }else{
+        $(".header .slide .bbot").width(1300)
+    }
+
+    $(window).resize(function(){
+        var _height = window.innerHeight
+        var _width =  window.innerWidth
+
+        if (_width>=1200) {
+            var nav = (_width - 1143)/2;
+            $(".header .bot .nav").css("margin-left",nav)
+        }else{
+            var nav = (_width - 953)/2;
+            $(".header .bot .nav").css("margin-left",nav)
+        }
+        if (_width<=1300) {
+            var bodyc = $("body,html").width() - 41
+            $(".header .slide .bbot").width(bodyc)
+        }else if(_width<=1500){
+            $(".header .slide .bbot").width(1033)
+        }else{
+            $(".header .slide .bbot").width(1300)
+        }
+    })
+
+
+
+
+
+    $(".header .bot .slide .bbot ul li:last").addClass('cur')
+    if ($(window).width()>1024) {
+        $(function(){
+            var k = true;
+            var _length = $(".switch-box").length;
+            var scrollFunc = function (e) {
+                e = e || window.event;
+                if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件
+                    if (e.wheelDelta > 0 && k == true) { //当滑轮向上滚动时
+                        $(".click-fixed1").fadeIn()
+                    }
+                    if (e.wheelDelta < 0 && k == true) { //当滑轮向下滚动时
+                        $(".click-fixed1").fadeOut()
+                    }
+                } else if (e.detail) {  //Firefox滑轮事件
+                    if (e.detail> 0 && k == true) { //当滑轮向上滚动时
+                        $(".click-fixed1").fadeIn()
+                    }
+                    if (e.detail< 0 && k == true) { //当滑轮向下滚动时
+                        $(".click-fixed1").fadeOut()
+                    }
+                }
+            }
+            //给页面绑定滑轮滚动事件
+            if (document.addEventListener) {//firefox
+                document.addEventListener('DOMMouseScroll', scrollFunc, false);
+            }
+            //滚动滑轮触发scrollFunc方法  //ie 谷歌
+            window.onmousewheel = document.onmousewheel = scrollFunc;
+
+            if (document.readyState=="complete")
+            {
+            }
+            else
+            {
+                document.onreadystatechange = function()
+                {
+                    if (document.readyState == "complete")
+                    {
+
+                    }
+                }
+            }
+        })
+    }
+
+    $(window).scroll(function(){
+        if ($(window).width()>1024) {
+            if ($(window).scrollTop()>=30) {
+                $(".header").addClass('cur')
+            }else{
+                $(".header").removeClass('cur')
+            }
+
+            var mk = 300
+            var k = $(window).scrollTop();
+            if (k<=mk) {
+                $(".click-fixed1").addClass('cur')
+            }else{
+                $(".click-fixed1").removeClass('cur')
+            }
+        };
+    })
+
+    $(".click-fixed1").click(function(){
+        $("html,body").stop().animate({scrollTop:$("body").offset().top},800);
+    });
+
+    //百度统计代码
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement('script');
+        hm.src = 'https://hm.baidu.com/hm.js?61d3db97ed62adb0bc061f69bfef250b';
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+
+
+
+
+    //搜索
+    /* $(".hide").click(function(){
+     location.href="/models/search.htm?key="+$("#search").val();
+     }); */
+</script>
+<!--手机端导航栏部分的js-->
+<script>
+
+    $(function(){
+
+
+        $(".navbtn").click(function(){
+            if ($(this).children('.line').hasClass('cur')) {
+                $(this).children('.line').removeClass('cur');
+                // $(".header .slide").slideUp();
+                $(this).removeClass('cur')
+                $(".slidebox").slideUp();
+                $("body,html").removeClass("ovh-f");
+            }else{
+                $(this).addClass('cur')
+                $(this).children('.line').addClass("cur");
+                $(".slidebox").slideDown();
+                // $(".header .slide").slideDown();
+                $("body,html").addClass("ovh-f");
+            }
+        })
+
+        $(".clse").click(function(){
+            $(".hjj").fadeIn()
+        });
+        $(".hjj img").click(function(){
+            $(".hjj").fadeOut()
+        });
+
+        $(".slidebox").height(window.innerHeight-50);
+        $(".slidebox li p").click(function(){
+            if ($(this).hasClass('cur')) {
+                $(this).removeClass('cur')
+                $(this).siblings('.box').slideUp();
+            }else{
+                $(this).addClass('cur');
+                $(this).siblings('.box').slideDown();
+                $(this).parents("li").siblings('li').children('.box').slideUp();
+                $(this).parents("li").siblings('li').children('p').removeClass('cur')
+
+            }
+        });
+
+
+        $(function(){
+            var k = true;
+            var _length = $(".switch-box").length;
+            var scrollFunc = function (e) {
+                e = e || window.event;
+                if (e.wheelDelta) {  //判断浏览器IE，谷歌滑轮事件
+                    if (e.wheelDelta > 0 && k == true) { //当滑轮向上滚动时
+                        $(".click-fixed").fadeIn()
+                    }
+                    if (e.wheelDelta < 0 && k == true) { //当滑轮向下滚动时
+                        $(".click-fixed").fadeOut()
+                    }
+                } else if (e.detail) {  //Firefox滑轮事件
+                    if (e.detail> 0 && k == true) { //当滑轮向上滚动时
+                        $(".click-fixed").fadeIn()
+                    }
+                    if (e.detail< 0 && k == true) { //当滑轮向下滚动时
+                        $(".click-fixed").fadeOut()
+                    }
+                }
+            }
+            //给页面绑定滑轮滚动事件
+            if (document.addEventListener) {//firefox
+                document.addEventListener('DOMMouseScroll', scrollFunc, false);
+            }
+            //滚动滑轮触发scrollFunc方法  //ie 谷歌
+            window.onmousewheel = document.onmousewheel = scrollFunc;
+
+            if (document.readyState=="phone")
+            {
+            }
+            else
+            {
+                document.onreadystatechange = function()
+                {
+                    if (document.readyState == "phone")
+                    {
+
+                    }
+                }
+            }
+        })
+        $(".click-fixed2").click(function(){
+            $("html,body").stop().animate({scrollTop:$("body").offset().top},800);
+        });
+
+
+        $(window).scroll(function(){
+            var mk = 300
+            var k = $(window).scrollTop();
+            if (k<=mk) {
+                $(".click-fixed").addClass('cur')
+            }else{
+                $(".click-fixed").removeClass('cur')
+            }
+
+            if ($(window).width()<=1024) {
+                if ($(window).scrollTop() > 500) {
+                    $(".back-fixed").fadeIn();
+                    $(".back-fixed").click(function(){
+                        $('body,html').stop().animate({scrollTop:$("body").offset().top},800);
+                    });
+                }else{
+                    $(".back-fixed").fadeOut();
+                }
+            };
+        })
+
+
+
+    })
+</script>
+<!--footer部分的js-->
+<script type="text/javascript" src="js/optiscroll.js"></script>
+<script type="text/javascript" >
+    var jiathis_config={
+        summary:"",
+        shortUrl:false,
+        hideMore:false
+    }
+
+    var _height = window.innerHeight
+    var _width =  window.innerWidth
+    $(".footer .top .frr .friends .click").click(function(){
+        if ($(this).hasClass('cur')) {
+            $(this).removeClass('cur');
+            $(this).siblings('.slide').slideUp(300);
+        }else{
+            $(this).addClass('cur');
+            $(this).siblings('.slide').slideDown(300);
+        }
+    });
+
+    var os1 = new Optiscroll(document.getElementById('os1'), { maxTrackSize: 60, preventParentScroll: true });
+
+
+    $(".bds_more").mousemove(function(){
+        return false
+    });
+
+    $(window).resize(function(){
+        if (_width<=1200) {
+            var footerwidth = ($(".footer .top .w1680").width() - 320)*0.9;
+            $(".footer .top .fll").width(footerwidth)
+        }else{
+            $(".footer .top .fll").css("width","70%")
+        }
+    });
+
+    if (_width<=1200) {
+        var footerwidth = ($(".footer .top .w1680").width() - 320)*0.9;
+        $(".footer .top .fll").width(footerwidth)
+    }else{
+        $(".footer .top .fll").css("width","70%")
+    }
+
+    var Lensu = $(".footer .top .frr .friends .slide a").length;
+    if (Lensu>3) {
+        $(".friends .slide").css("height","150px");
+    }else if (Lensu<=3){
+        $(".friends .slide").css("height",(Lensu*50)+'px');
+    }
+
+
+</script>
+<script>
+    window._bd_share_config={
+        common : {bdText : '1',bdDesc : '2',bdUrl : '3',bdPic : '4'
+        },"share":{},"selectShare":{
+            "bdContainerClass":null,"bdSelectMiniList":
+                    ["qzone","tsina","tqq","weixin","mshare"]
+        }};with(document)0[(getElementsByTagName('head')[0]||body)
+            .appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion= '+~(-new Date()/36e5)];
+</script>
+<!--手机端footer部分的js-->
+<script type="text/javascript">
+    define = null;
+    require = null;
+</script>
+<script>
+    window._bd_share_config={"common":{
+        "bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"",
+        "bdStyle":"0","bdSize":"16"},"share":{},"selectShare":{
+        "bdContainerClass":null,"bdSelectMiniList":
+                ["qzone","tsina","tqq","weixin","mshare"]
+    }};with(document)0[(getElementsByTagName('head')[0]||body)
+            .appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+<script type="text/javascript">
+    var noncestr = 'sRzfw5Jl';
+    var timestamp = '1542782060';
+    var signature = 'd65f7e446f9f151a50b790501489535f86334fdc';
+    var appid = 'wx87c3fdace328f118';
+    wx.config({
+        debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+        appId: appid, // 必填，公众号的唯一标识
+        timestamp: timestamp, // 必填，生成签名的时间戳
+        nonceStr: noncestr, // 必填，生成签名的随机串
+        signature: signature,// 必填，签名，见附录1
+        jsApiList: ['onMenuShareTimeline','onMenuShareAppMessage'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+    });
+
+    wx.ready(function(){
+        // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
+        wx.onMenuShareTimeline({
+            title: document.title, //分享标题
+            link: window.location.href.split('#')[0], //分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: 'http://www.bjev.com.cn/beiqifiles/newsInformation/2017/09/22/201709221107250384.jpg', //分享图标
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+        wx.onMenuShareAppMessage({
+            title: document.title, //分享标题
+            link: window.location.href.split('#')[0], //分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            imgUrl: 'http://www.bjev.com.cn/beiqifiles/newsInformation/2017/09/22/201709221107250384.jpg', //分享图标
+            desc: 'http://www.bjev.com.cn/', // 分享描述
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+    });
+
+    $(".footer-mobile .topnav li").click(function(){
+        if ($(this).hasClass('cur')) {
+            $(this).children('.slid').slideUp();
+            $(this).removeClass('cur')
+        }else{
+            $(this).children('.slid').slideDown();
+            $(this).addClass('cur');
+
+            $(this).siblings('li').removeClass('cur');
+            $(this).siblings('li').children('.slid').slideUp();
+        }
+    });
+</script>
