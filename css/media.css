@@ -1,0 +1,3094 @@
+﻿@media (max-width:1900px)
+{
+}
+
+@media (max-width:1700px)
+{
+	.w1680
+	{
+		width: 96%;
+	}
+}
+
+@media (max-width:1500px)
+{
+	.banner .box>div
+	{
+		width: 23%;
+		margin: 0 1%;
+	}
+
+	.header .slide .bbot
+	{
+		width: 1033px;
+	}
+
+	.platform-price .frr
+	{
+		padding-left: 10%;
+	}
+
+	.bq-table .table-box table
+	{
+		width: 92%;
+	}
+
+	.yl
+	{
+		width: 92%;
+	}
+}
+
+@media (max-width:1460px)
+{
+	.w1400
+	{
+		width: 90%;
+	}
+
+	.www1400
+	{
+		width: 90%;
+	}
+
+	.click-more
+	{
+		width: 92%;
+	}
+
+	.pro-banner .w1400
+	{
+		margin-left: 0px;
+		left: 5%;
+	}
+
+	.bannerimg .text
+	{
+		width: 90%;
+		left: 5%;
+		margin-left: 0px;
+	}
+
+	.service-nav
+	{
+		width: 92%;
+		margin: 0 auto;
+	}
+
+	.service-ajax
+	{
+		padding-bottom: 15px;
+	}
+
+	.service-aftersale .ul ul
+	{
+		width: 100%;
+	}
+
+	.service-aftersale .ul li
+	{
+		width: 18.4%;
+		margin-right: 2%;
+	}
+
+	.service-aftersale .ul li:nth-child(4n)
+	{
+		margin-right: 0px;
+	}
+
+	.service-aftersale .ul li .tit
+	{
+		font-size: 16px;
+		margin: 8px auto 6px;
+	}
+
+	.service-aftersale .ul li .te
+	{
+		font-size: 12px;
+	}
+
+	.dealer-box1 .fll
+	{
+		width: 60%;
+	}
+
+	.dealer-box1 .frr
+	{
+		width: 40%;
+	}
+
+	.dealer-box1 .fll .text
+	{
+		width: 95%;
+	}
+
+	.dealer-box1 .frr img
+	{
+		display: block;
+		width: 100%;
+	}
+
+	.dealer-box2 ul li .box .text
+	{
+		width: 65%;
+	}
+
+	.back-js
+	{
+		width: 86%;
+	}
+
+	.road-distance .sjimg img
+	{
+		width: 90%;
+	}
+
+	.bq-safety .img img
+	{
+		width: 80%;
+	}
+
+	.bq-battery .img img
+	{
+		width: 80%;
+	}
+
+	.bq-internal img.car-img
+	{
+		width: 65%;
+	}
+
+	.bq-sos .img img
+	{
+		width: 80%;
+	}
+
+	.header .bot .nav a
+	{
+		margin: 0 20px;
+	}
+
+	.end-jsvideo
+	{
+		width: 90%;
+	}
+
+	.bq-internal
+	{
+		padding-bottom: 8%;
+	}
+}
+
+@media (max-width:1366px)
+{
+	.banner .box
+	{
+		height: 70px;
+	}
+
+	.banner .box>div
+	{
+		width: 18%;
+		height: 70px;
+	}
+
+	.banner .box>div .te
+	{
+		line-height: 70px;
+	}
+
+	.banner .box>div .bgimg
+	{
+		margin-top: 7px;
+		transform: scale(0.6);
+	}
+
+	.banner .box>div:hover .line
+	{
+		height: 70px;
+	}
+
+	.banner .hd
+	{
+		bottom: 110px;
+	}
+
+	.two
+	{
+		margin-bottom: 74px;
+	}
+
+	.platform .hethr .top .num
+	{
+		margin-left: 20px;
+	}
+
+	.platform .hethr .top .num img
+	{
+		height: 38px;
+	}
+
+	.platform .hethr .top .te
+	{
+		font-size: 14px;
+		color: #666;
+		margin-left: 12px;
+	}
+
+	.platform .hethr .box3 .top .te p.sp
+	{
+		font-size: 14px;
+		color: #666;
+	}
+
+	.platform .car .box .tit
+	{
+		font-size: 22px;
+	}
+
+	.platform .car .box .te
+	{
+		font-size: 14px;
+	}
+
+	.platform .hep
+	{
+		padding-top: 60px;
+		padding-bottom: 30px;
+	}
+}
+
+@media (max-width:1300px)
+{
+	.header .slide .bbot
+	{
+		left: -190px;
+	}
+
+	.platform .hethr .box
+	{
+		width: 100%;
+	}
+
+	.platform-price .frr .imgte img
+	{
+		height: 50px;
+	}
+
+	.platform-price .frr .imgte
+	{
+		line-height: 50px;
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+
+	.platform-price .frr .te .p1
+	{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.platform-price .frr .te .p2
+	{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.platform-price .frr .thr
+	{
+		margin-bottom: 15px;
+		margin-top: 15px;
+	}
+
+	.platform-price .frr .thr li
+	{
+		width: 100px;
+		height: 100px;
+		margin-right: 15px;
+	}
+
+	.platform-price .frr .thr li table
+	{
+		width: 100px;
+		height: 100px;
+	}
+
+	.platform-price .frr .thr li table td p .sp
+	{
+		font-size: 16px;
+		font-family: "Arial";
+		margin-right: 0px;
+		margin-bottom: 5px;
+	}
+
+	.platform-price .frr .thr li table td p
+	{
+		font-size: 12px;
+	}
+
+	.platform-price .frr .text
+	{
+		width: 100%;
+		margin-bottom: 20px;
+		font-size: 12px;
+	}
+
+	.platform-price .frr .text1 .p1
+	{
+		font-size: 12px;
+		color: #333;
+		line-height: 24px;
+	}
+
+	.platform-price .frr .text1 .p2
+	{
+		font-size: 12px;
+		color: #c4c4c4;
+	}
+
+	.w1180
+	{
+		width: 92%;
+	}
+
+	.purchase .plan .w50 .box1
+	{
+		right: 5%;
+	}
+
+	.purchase .plan .w50 .box2
+	{
+		left: 5%;
+	}
+}
+
+@media (max-width:1200px)
+{
+	.header .bot .nav a
+	{
+		margin: 0 15px;
+	}
+
+	.purchase .plan .w50
+	{
+		height: 440px;
+	}
+
+	.purchase .plan .w50 .box1,.purchase .plan .w50 .box2
+	{
+		width: 420px;
+	}
+
+	.purchase .plan .box .table .fll
+	{
+		line-height: 30px;
+		height: 30px;
+	}
+
+	.header .bot .nav a
+	{
+		margin: 0 11px;
+	}
+
+	.purchase .plan .box .table .frr
+	{
+		width: 270px;
+	}
+
+	.purchase .plan .box .table p
+	{
+		font-size: 12px;
+		line-height: 30px;
+	}
+
+	.purchase .plan .box .table input.pt
+	{
+		height: 30px;
+		width: 270px;
+	}
+
+	.purchase .plan .box .table select
+	{
+		width: 132px;
+		height: 30px;
+		margin-right: 5px;
+	}
+
+	.purchase .plan .box .table select.sw
+	{
+		width: 270px;
+	}
+
+	.purchase .plan .box .table input.su
+	{
+		height: 30px;
+	}
+
+	.purchase .plan .box .btit
+	{
+		font-size: 16px;
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+
+	.purchase .plan .box .bte
+	{
+		font-size: 14px;
+		line-height: 28px;
+		margin-bottom: 10%;
+	}
+
+	.purchase .plan .box .ba a
+	{
+		font-size: 12px;
+	}
+
+	.app .sbanner .frr .twoimg img
+	{
+		width: 140px;
+	}
+
+	.app .sbanner .frr .te
+	{
+		margin: 20px 0;
+	}
+
+	.app .sbanner .frr .imgte div
+	{
+		font-size: 28px;
+		line-height: 100px;
+		padding-left: 20px;
+		margin-left: 20px;
+	}
+
+	.app .sbanner .frr .imgte img
+	{
+		width: 100px;
+	}
+
+	.app .sbanner .fll img
+	{
+		display: block;
+		margin: 0 auto;
+		float: none;
+	}
+
+	.contact .tit
+	{
+		font-size: 20px;
+		line-height: 20px;
+		padding-top: 50px;
+		padding-bottom: 41px;
+	}
+
+	.contact ul li .p1
+	{
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.contact ul li .p2
+	{
+		font-size: 12px;
+		line-height: 24px;
+	}
+
+	.four-box img.img
+	{
+		width: 51px;
+	}
+
+	.four-box .te
+	{
+		line-height: 24px;
+	}
+}
+
+@media (max-width:1024px)
+{
+	.videobox-t
+	{
+		width: 94%;
+		height: 380px;
+		margin-left: -47%;
+		margin-top: 0;
+		top: 20%;
+	}
+
+	.video-ajax .video
+	{
+		height: 380px !important;
+		width: 100% !important;
+	}
+
+	.close-btnx
+	{
+		top: 0;
+		right: 0;
+	}
+
+	.road-distance .tit
+	{
+		font-size: 20px;
+		margin-top: 7%;
+		line-height: 52px;
+		margin-bottom: 15px;
+	}
+
+	.pro-ec180 .box4 .ul1
+	{
+		display: block;
+	}
+
+	.w1680.nm ul li .nm-tit
+	{
+		font-size: 20px;
+		line-height: 24px;
+		height: 24px;
+	}
+
+	.w1680.nm ul li .nm-te
+	{
+		font-size: 16px;
+		height: 20px;
+	}
+
+	.w1680.nm ul li .nm-text
+	{
+		font-size: 14px;
+	}
+
+	.w1680.nm ul li .nm-time
+	{
+		font-size: 16px;
+		color: #666;
+		height: 21px;
+		line-height: 21px;
+		margin-bottom: 10%;
+		background: url(../images/q-17.png) no-repeat right center;
+	}
+
+	.dealer-box1 .frr
+	{
+		width: 100%;
+	}
+
+	.dealer-box1 .fll
+	{
+		width: 100%;
+	}
+
+	.dealer-box1 .fll .text
+	{
+		width: 100%;
+		padding-right: 0px;
+		font-size: 14px;
+		line-height: 28px;
+	}
+
+	.dealer-tit
+	{
+		font-size: 20px;
+		line-height: 90px;
+	}
+
+	.dealer-box1 .fll .d-title
+	{
+		float: left;
+	}
+
+	.dealer-box1 .fll .text
+	{
+		margin-bottom: 25px;
+	}
+
+	.dealer-box1 .fll .d-click
+	{
+		float: right;
+		margin-top: 0px;
+		line-height: 26px;
+		height: 26px;
+	}
+
+	.dealer-box2
+	{
+		padding-top: 25px;
+	}
+
+	.dealer-box2 ul li .box
+	{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.dea-table
+	{
+		width: 92%;
+		margin: 0px;
+		left: 4%;
+		top: 20%;
+	}
+
+	.dealer-box4
+	{
+		margin-bottom: 25px;
+	}
+
+	.dealer-box3
+	{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.dealer-box5
+	{
+		padding-bottom: 25px;
+	}
+
+	.dealer-box6 li
+	{
+		width: 50%;
+		margin-bottom: 10px;
+	}
+
+	.dealer-box6 li:nth-child(2n)
+	{
+		padding-left: 5%;
+		box-sizing: border-box;
+		background: none;
+	}
+
+	.dealer-box6 li .text
+	{
+		width: 90%;
+		display: block;
+	}
+
+	.dealer-box6 li .text .bt
+	{
+		font-size: 14px;
+	}
+
+	.dealer-box6 li .text .te
+	{
+		font-size: 12px;
+	}
+
+	.dealer-box6 li .img
+	{
+		display: block;
+		overflow: hidden;
+	}
+
+	.dealer-box2 ul li .box .text .tk
+	{
+		font-size: 20px;
+	}
+
+	.dealer-box6
+	{
+		padding-bottom: 25px;
+	}
+
+	.dealer-box6 li .img img
+	{
+		float: left;
+		width: 36px;
+	}
+
+	.d-title
+	{
+		font-size: 18px;
+	}
+
+	.dealer-box4
+	{
+		padding-top: 25px;
+	}
+
+	.dealer-box4 .box
+	{
+		margin-top: 25px;
+	}
+
+	.dealer-box1
+	{
+		padding-bottom: 25px;
+	}
+
+	.dea-table .table1
+	{
+		width: 90%;
+	}
+
+	.dea-table .de-sc
+	{
+		width: 90%;
+	}
+
+	.dea-table .img
+	{
+		right: 0px;
+	}
+
+	.pc-enbd
+	{
+		display: none;
+	}
+
+	.w67
+	{
+		display: none;
+	}
+
+	.ww50
+	{
+		display: block;
+	}
+
+	.purchase .plan .box .btit
+	{
+		text-align: center;
+	}
+
+	.platform .car .w1400 .box .bort
+	{
+		border-left: 0px none;
+		box-sizing: border-box;
+		padding-left: 0%;
+	}
+
+	.sidebar
+	{
+		display: none;
+	}
+
+	.mobile-clicka
+	{
+		display: none;
+	}
+
+	.road-distance ul
+	{
+		width: 100%;
+	}
+
+	.road-distance .te
+	{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 24px;
+		margin-bottom: 5%;
+	}
+
+	.road-distance ul li .p1
+	{
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	.road-distance ul li .p2
+	{
+		font-size: 12px;
+		width: 60%;
+		margin: 0 auto;
+		line-height: 18px;
+	}
+
+	.road-four .tit
+	{
+		font-size: 20px;
+		margin-top: 7%;
+		line-height: 52px;
+		margin-bottom: 15px;
+	}
+
+	.road-four .te
+	{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 24px;
+		margin-bottom: 35%;
+	}
+
+	.road-four ul li
+	{
+		width: 50%;
+	}
+
+	.road-four ul .li3
+	{
+		display: none;
+	}
+
+	.road-four ul .li4
+	{
+		display: none;
+	}
+
+	.road-four .box img
+	{
+		width: 85%;
+	}
+
+	.bq-web
+	{
+		height: auto;
+	}
+
+	.bq-web .tit
+	{
+		font-size: 20px;
+		margin-top: 7%;
+		line-height: 52px;
+		margin-bottom: 15px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.bq-web .te
+	{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 24px;
+		margin-bottom: 10%;
+	}
+
+	.bq-internal img.car-img
+	{
+		margin: -31% auto 0;
+	}
+
+	.bq-battery
+	{
+		padding: 0px;
+		padding-bottom: 8%;
+	}
+
+	.bq-safety
+	{
+		padding-top: 0px;
+	}
+
+	.bq-battery .tit
+	{
+		font-size: 20px;
+		margin-top: 7%;
+		line-height: 52px;
+		margin-bottom: 15px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.bq-battery .te
+	{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 24px;
+		margin-bottom: 10%;
+	}
+
+	.bq-safety .tit
+	{
+		font-size: 20px;
+		margin-top: 7%;
+		line-height: 52px;
+		margin-bottom: 15px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.bq-safety .te
+	{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 24px;
+		margin-bottom: 10%;
+	}
+
+	.back-car
+	{
+		padding-top: 0px;
+		background: #f9f9f9;
+	}
+
+	.back-car-tit
+	{
+		font-size: 20px;
+		margin-top: 7%;
+		line-height: 52px;
+		margin-bottom: 15px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	.back-te
+	{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 24px;
+		margin-bottom: 10%;
+	}
+
+	.back-js
+	{
+		width: 92%;
+		margin: 0 auto;
+		padding: 0 4%;
+		background: #f9f9f9;
+		padding-bottom: 10%;
+	}
+
+	#myCar
+	{
+		width: 100%!important;
+		background-position: center center;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+
+	.bq-sos .te
+	{
+		width: 90%;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 24px;
+		margin-bottom: 10%;
+	}
+
+	.bq-sos .tit
+	{
+		font-size: 20px;
+		margin-top: 7%;
+		line-height: 52px;
+		margin-bottom: 15px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+
+	#myCar img
+	{
+		width: 100%;
+	}
+
+	.bq-sos
+	{
+		height: auto;
+		background-size: cover;
+	}
+
+	.new-footer
+	{
+		display: block;
+	}
+
+	.two .box .text .p1
+	{
+		font-size: 14px;
+		line-height: 14px;
+		height: 14px;
+		margin-bottom: 13px;
+	}
+
+	.nextbb
+	{
+		background-size: 35px;
+		padding-top: 19px;
+		font-size: 14px;
+	}
+
+	.two .box .text .p2
+	{
+		font-size: 12px;
+		line-height: 12px;
+		height: 12px;
+	}
+
+	.images .fll table .tit
+	{
+		font-size: 14px;
+		line-height: 14px;
+		padding-bottom: 13px;
+		margin-bottom: 13px;
+	}
+
+	.images .fll table a
+	{
+		margin-right: 5px;
+		line-height: 20px;
+		font-size: 12px;
+	}
+
+	.video .frr table .tit
+	{
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 4px;
+	}
+
+	.video .frr table .tit-en
+	{
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 5px;
+		padding-bottom: 22px;
+		border-bottom: 1px solid #ddd;
+		margin-bottom: 13px;
+	}
+
+	.video .frr table a
+	{
+		line-height: 20px;
+		font-size: 12px;
+	}
+
+	.two .box .potext .ty .tk
+	{
+		font-size: 14px;
+		line-height: 14px;
+		padding-bottom: 13px;
+		margin-top: 10%;
+	}
+
+	.two .box .potext .ty .tee a
+	{
+		font-size: 12px;
+	}
+
+	.header .slide .bbot
+	{
+		left: -189px;
+	}
+
+	.service-nav .swiper-slide a
+	{
+		font-size: 12px;
+		height: 37px;
+		line-height: 37px;
+	}
+
+	.servicenav-box .prev
+	{
+		top: 3px;
+		background-size: 9px;
+		background-position: left center;
+	}
+
+	.servicenav-box .next
+	{
+		top: 3px;
+		background-size: 9px;
+		background-position: right center;
+	}
+
+	.service-nav .swiper-slide a
+	{
+		padding: 0 16px;
+	}
+
+	.same
+	{
+		margin-bottom: 25px;
+	}
+
+	.servicenav-box
+	{
+		margin-bottom: 30px;
+	}
+
+	.service-ajax .box .tit
+	{
+		font-size: 18px;
+	}
+
+	.service-ajax .box .te
+	{
+		font-size: 12px;
+	}
+
+	.service-ajax .img-box
+	{
+		display: none;
+	}
+
+	.service-aftersale
+	{
+		padding-top: 0px;
+	}
+
+	.service-aftersale .text-box .tit
+	{
+		font-size: 16px;
+		margin-bottom: 10px;
+		line-height: 16px;
+	}
+
+	.service-aftersale .text-box .te
+	{
+		font-size: 12px;
+		color: #666;
+		text-align: center;
+		line-height: 24px;
+	}
+
+	.service-aftersale .ul
+	{
+		margin-top: 22px;
+	}
+
+	.business-type
+	{
+		padding-top: 0px;
+	}
+
+	.business-type .bu-tit
+	{
+		line-height: 50px;
+		font-size: 16px;
+		color: #333;
+		text-align: center;
+	}
+
+	.business-type .clnav
+	{
+		display: none;
+	}
+
+	.business-type .bus-ajax
+	{
+		margin-top: 35px;
+		padding-bottom: 26px;
+	}
+
+	.business-type .bus-ajax ol.flex-control-nav.flex-control-paging
+	{
+		margin-top: 20px;
+	}
+
+	.bus-ajaxbox
+	{
+		min-height: 278px;
+	}
+
+	.buy
+	{
+		padding-top: 0px;
+	}
+
+	.buy .buy-tit
+	{
+		line-height: 50px;
+		font-size: 16px;
+	}
+
+	.buy .buynav li
+	{
+		display: inline-block;
+		float: none;
+		margin: 0 10px;
+		line-height: 50px;
+		cursor: pointer;
+		font-size: 14px;
+	}
+
+	.buy .table-q .tablebox
+	{
+		padding: 30px 0 65px;
+	}
+
+	.purchase .plan .w50
+	{
+		width: 100%;
+		height: 408px;
+	}
+
+	.purchase .plan .w50 .box1,.purchase .plan .w50 .box2
+	{
+		width: 300px;
+		left: 50%;
+		right: 50%;
+		margin-right: -150px;
+		margin-left: -150px;
+	}
+
+	.purchase .plan .box table input.pt
+	{
+		width: 220px;
+	}
+
+	.purchase .four
+	{
+		padding-top: 0px;
+	}
+
+	.purchase .four .tit
+	{
+		display: none;
+	}
+
+	.purchase .four .ul
+	{
+		display: none;
+	}
+
+	.purchase .four .ul li
+	{
+		width: 100%;
+	}
+
+	.purchase .four .ul2 li img
+	{
+		margin-bottom: 10px;
+	}
+
+	.purchase .four .ul3
+	{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.purchase .four .ul li .box .t
+	{
+		font-size: 14px;
+		margin-bottom: 1%;
+	}
+
+	.purchase .four .ul li .box .te p
+	{
+		font-size: 12px;
+	}
+
+	.purchase .four .ul3 li
+	{
+		width: 20%;
+		padding: 1%;
+		border: 0px none;
+	}
+
+	.purchase .four .ul3 li:nth-child(5n)
+	{
+		border-right: 0px none;
+	}
+
+	.purchase .four .ul2
+	{
+		margin-top: 23px;
+		padding-bottom: 21px;
+		margin-bottom: 22px;
+	}
+
+	.purchase .four .ul2 li
+	{
+		width: 33.3%;
+		margin-bottom: 6%;
+		font-size: 12px;
+	}
+
+	.purchase .four .ul2 li:nth-child(3n)
+	{
+		background: none;
+	}
+
+	.purchase .four .sa-tit
+	{
+		font-size: 16px;
+	}
+
+	.bannerimg
+	{
+		display: none;
+	}
+
+	.mobilebanner
+	{
+		display: block;
+	}
+
+	.purchase .mobiletext
+	{
+		display: block;
+	}
+
+	.purchase .mobile-table
+	{
+		display: block;
+	}
+
+	.ulul1
+	{
+		background: #ebebeb;
+		padding-top: 33px;
+	}
+
+	.business-type .mobile-clnav
+	{
+		display: block;
+	}
+
+	.bus-ajaxbox
+	{
+		overflow: hidden;
+		min-height: 410px;
+		display: none;
+	}
+
+	.bus-ajaxbox2
+	{
+		overflow: hidden;
+		display: block;
+	}
+
+	.purchase .plan .box .table .fll
+	{
+		width: 0px;
+		overflow: hidden;
+	}
+
+	.purchase .plan .box .table select
+	{
+		width: 49%;
+	}
+
+	.purchase .plan .box .table select.sw
+	{
+		width: 100%;
+	}
+
+	.purchase .plan .box .table .frr
+	{
+		width: 100%;
+	}
+
+	.purchase .plan .box .table input.pt
+	{
+		width: 100%;
+	}
+
+	.purchase .plan .box .table input.su
+	{
+		width: 100%;
+		background-size: 100%;
+	}
+
+	.platform .hethr .phone img
+	{
+		margin: 20px auto 50px;
+	}
+
+	.platform .hep .heptit
+	{
+		font-size: 20px;
+		line-height: 25px;
+		margin-top: 5px;
+	}
+
+	.platform .hep .hepte
+	{
+		font-size: 12px;
+		line-height: 24px;
+	}
+
+	.platform .hep
+	{
+		padding-top: 30px;
+		padding-bottom: 15px;
+	}
+
+	.platform .hethr .text .w1400
+	{
+		margin-top: 35px;
+		font-size: 12px;
+		line-height: 24px;
+		color: #333;
+		padding-bottom: 40px;
+	}
+
+	.platform .car
+	{
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.platform .car .num
+	{
+		border-left: 1px solid #ddd;
+		padding-left: 5%;
+		box-sizing: border-box;
+	}
+
+	.platform .car .w1400 .box
+	{
+		width: 100%;
+		margin-bottom: 35px;
+	}
+
+	.platform .car .box .te
+	{
+		width: 100%;
+		height: auto;
+		font-size: 14px;
+		color: #666;
+		line-height: 24px;
+		margin: 0px;
+		margin-bottom: 30px;
+		padding-top: 5px;
+		padding-left: 5%;
+		box-sizing: border-box;
+		border-left: 1px solid #ddd;
+		font-size: 12px;
+	}
+
+	.platform .car .titt
+	{
+		font-size: 20px;
+		line-height: 36px;
+		margin-bottom: 10px;
+	}
+
+	.platform .car .box .tit
+	{
+		font-size: 16px;
+		padding: 10px 0;
+		margin: 0px 0;
+		padding-left: 5%;
+		box-sizing: border-box;
+		border-left: 1px solid #ddd;
+	}
+
+	.platform .car>.w1400
+	{
+		padding-bottom: 60px;
+	}
+
+	.platform .car .text .w1400
+	{
+		padding-top: 36px;
+		line-height: 24px;
+		color: #333;
+		font-size: 12px;
+	}
+
+	.platform-price .frr
+	{
+		float: left;
+		width: 100%;
+	}
+
+	.platform-price .fll
+	{
+		float: right;
+		width: 100%;
+	}
+
+	.platform-price .w1400
+	{
+		padding-top: 20px;
+		padding-bottom: 23px;
+	}
+
+	.platform-price .frr .imgte .n
+	{
+		display: block;
+		float: left;
+		font-size: 12px;
+		line-height: 24px;
+	}
+
+	.platform-price .frr .thr li
+	{
+		width: 88px;
+		height: 88px;
+	}
+
+	.platform-price .frr .thr li table
+	{
+		width: 88px;
+		height: 88px;
+	}
+
+	.platform-price .frr
+	{
+		padding: 0px;
+	}
+
+	.platform-price .frr .imgte img
+	{
+		height: auto;
+	}
+
+	.platform-price .frr .imgte .img
+	{
+		width: 30%;
+	}
+
+	.platform-price .frr .imgte .nbox
+	{
+		width: 70%;
+	}
+
+	.platform-price .frr .imgte .nbox .ntop
+	{
+		line-height: 24px;
+		font-size: 14px;
+	}
+
+	.platform-price .frr .te
+	{
+		display: none;
+	}
+
+	.same.sp.spp
+	{
+		top: 50px;
+	}
+
+	.same.sp.spp .same-mobile .top
+	{
+		color: #fff;
+		background: url(../images/img-129.png) no-repeat right 4% center;
+		background-size: 19px;
+	}
+
+	.sbanenr
+	{
+		height: 424px;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.sbanenr .box .p1
+	{
+		font-size: 34px;
+		line-height: 40px;
+		margin-bottom: 10px;
+	}
+
+	.sbanenr .box .p2
+	{
+		font-size: 18px;
+	}
+
+	.story .stext
+	{
+		height: auto;
+		padding-bottom: 10%;
+		background-position: center bottom;
+	}
+
+	.story .stext .te
+	{
+		padding: 0 3%;
+		padding-top: 10%;
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.story .stext .tit
+	{
+		font-size: 18px;
+		margin-top: 15px;
+	}
+
+	.landscape
+	{
+		height: auto;
+		padding-bottom: 25%;
+	}
+
+	.landscape .text
+	{
+		text-align: center;
+		padding-top: 25%;
+		font-size: 16px;
+		color: #fff;
+		line-height: 24px;
+	}
+
+	.landscape .tit
+	{
+		font-size: 18px;
+		line-height: 26px;
+		margin-top: 12px;
+		font-weight: bold;
+	}
+
+	.landscape .cbox
+	{
+		width: 90%;
+		height: auto;
+		top: 5%;
+		left: 5%;
+		margin: 0px;
+	}
+
+	.landscape .circle
+	{
+		width: 100%;
+		height: 100%;
+	}
+
+	.landscape .qbox0
+	{
+		top: 0px;
+		left: 0px;
+		margin: 0px;
+	}
+
+	.landscape .qbox1
+	{
+		top: 3%;
+		left: 3%;
+		margin: 0px;
+	}
+
+	.landscape .qbox2
+	{
+		top: -3%;
+		left: -3%;
+		margin: 0px;
+	}
+
+	.landscape .qbox3
+	{
+		top: -3%;
+		left: 3%;
+		margin: 0px;
+	}
+
+	.landscape .qbox4
+	{
+		top: 3%;
+		left: -3%;
+		margin: 0px;
+	}
+
+	.story .send
+	{
+		height: auto;
+		padding-top: 10%;
+		box-sizing: border-box;
+		padding-bottom: 50%;
+	}
+
+	.story .send .tit
+	{
+		font-size: 18px;
+		line-height: 24px;
+		margin-bottom: 16px;
+		font-weight: bold;
+	}
+
+	.story .send .te
+	{
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.story .send .sp
+	{
+		font-size: 18px;
+		line-height: 26px;
+		margin-top: 36px;
+	}
+
+	.app
+	{
+		background: #f1f1f1;
+	}
+
+	.app .sbanner
+	{
+		height: auto;
+		background-size: 350%;
+	}
+
+	.app .sbanner .fll
+	{
+		width: 100%;
+		padding-top: 31%;
+	}
+
+	.app .sbanner .frr
+	{
+		width: 100%;
+		padding-bottom: 35px;
+		padding-left: 0px;
+	}
+
+	.app .sbanner .frr
+	{
+		padding-top: 0px;
+	}
+
+	.app .sbanner .frr .imgte img
+	{
+		display: none;
+	}
+
+	.app .sbanner .frr .imgte div
+	{
+		background: none;
+		padding-left: 0px;
+		margin: 0px;
+		font-size: 21px;
+		color: #333;
+		float: none;
+		text-align: center;
+		line-height: 50px;
+	}
+
+	.app .sbanner .frr .te
+	{
+		font-size: 12px;
+		color: #333;
+		margin: 0px 0 25px;
+		line-height: 20px;
+	}
+
+	.app .sbanner .frr .twoimg img
+	{
+		display: block;
+		width: 48%;
+		margin-right: 2%;
+	}
+
+	.app .sbanner .frr .twoimg img:nth-child(2n)
+	{
+		margin-right: 0px;
+	}
+
+	.question li
+	{
+		margin-bottom: 10px;
+	}
+
+	.question li .top
+	{
+		height: 43px;
+		background-position: right 10px center;
+		background-size: 18px;
+	}
+
+	.question li .top .qte
+	{
+		width: 40px;
+		line-height: 43px;
+		font-size: 24px;
+	}
+
+	.question li .bot .qte
+	{
+		width: 40px;
+		line-height: 43px;
+		font-size: 24px;
+	}
+
+	.question li .top .te
+	{
+		padding-left: 10px;
+		padding-right: 0px;
+		font-size: 12px;
+		line-height: 24px;
+		padding: 8px 0;
+		margin-left: 10px;
+		overflow: hidden;
+		height: 23px;
+	}
+
+	.question li .bot .te
+	{
+		padding-left: 10px;
+		padding-right: 0px;
+		font-size: 12px;
+		line-height: 24px;
+		padding: 8px 0;
+		padding-left: 10px;
+	}
+
+	.contact ul li
+	{
+		border-right: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		width: 50%;
+		box-sizing: border-box;
+		padding: 5% 0;
+	}
+
+	.contact ul li:nth-child(2n)
+	{
+		border-right: 0px none;
+	}
+
+	.contact ul li:nth-child(3n)
+	{
+		border-bottom: 0px none;
+	}
+
+	.contact ul li:nth-child(4n)
+	{
+		border-right: 0px none;
+		border-bottom: 0px none;
+	}
+
+	.contact .thr .box
+	{
+		margin: 0 auto;
+	}
+
+	.contact .thr .box img
+	{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.contact .thr p
+	{
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.twomob
+	{
+		display: block;
+	}
+
+	.contact .sbanner
+	{
+		height: auto;
+		background: none;
+	}
+
+	.contact .sbanner img
+	{
+		display: block;
+		width: 100%;
+	}
+
+	.contact
+	{
+		padding-bottom: 47px;
+	}
+
+	.pro-banner .box
+	{
+		display: none;
+	}
+
+	.samebox .tit
+	{
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+
+	.samebox .te
+	{
+		font-size: 12px;
+		margin-bottom: 15px;
+	}
+
+	.samebox .text
+	{
+		font-size: 12px;
+		margin-bottom: 32px;
+		width: 90%;
+		margin: 0 auto 30px;
+		line-height: 20px;
+	}
+
+	.pro-eu260 .box1
+	{
+		padding-top: 7%;
+	}
+
+	.samebox .two
+	{
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.samebox .two .bxo
+	{
+		margin: 0 5%;
+	}
+
+	.samebox .two .bxo img
+	{
+		width: 80px;
+	}
+
+	.pro-eu260 .box1 .img img
+	{
+		width: 120%;
+		margin-left: -10%;
+	}
+
+	.pro-eu260 .box2 .samebox
+	{
+		top: 7%;
+	}
+
+	.pro-eu260 .box3
+	{
+		padding-top: 7%;
+		padding-bottom: 7%;
+	}
+
+	.pro-eu260 .box4
+	{
+		padding-bottom: 30%;
+	}
+
+	.pro-eu260 .box4 img.bg
+	{
+		max-width: 165%;
+	}
+
+	.pro-eu260 .box4 .img
+	{
+		width: 50%;
+		position: absolute;
+		left: 25%;
+		top: 36%;
+	}
+
+	.pro-eu260 .box5 .samebox
+	{
+		top: 7%;
+	}
+
+	.samebox .two .bxo
+	{
+		margin: 0 2%;
+	}
+
+	.proinfo .box6 .js6
+	{
+		display: none;
+	}
+
+	.mobile-js6
+	{
+		display: block;
+	}
+
+	.bq-housekeeper
+	{
+		padding: 12% 0;
+	}
+
+	.bq-housekeeper img
+	{
+		max-width: 60%;
+	}
+
+	.four-box li
+	{
+		width: 100%;
+	}
+
+	.four-box img.img
+	{
+		display: block;
+		margin: 0 auto;
+		margin-top: 8%;
+		margin-bottom: 4%;
+		width: 51px;
+	}
+
+	.four-box .te
+	{
+		font-size: 12px;
+		width: 94%;
+		margin: 0 auto;
+	}
+
+	.four-box li
+	{
+		padding: 5% 0;
+	}
+
+	.four-box img.zimg
+	{
+		display: none;
+	}
+
+	.four-box .box
+	{
+		position: relative;
+		top: auto;
+		left: auto;
+		width: auto;
+		height: auto;
+	}
+
+	.four-box img.img
+	{
+		margin-top: 2%;
+	}
+
+	.bq-table
+	{
+		padding-top: 0px;
+		padding-bottom: 16%;
+	}
+
+	.bq-table .tit
+	{
+		padding-top: 8%;
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+
+	.bq-table .table-box table
+	{
+		width: 92%;
+		margin: 0 auto;
+	}
+
+	.click-more
+	{
+		width: 92%;
+		margin: 0 auto;
+	}
+
+	.yl
+	{
+		width: 92%;
+		margin: 5% auto;
+		font-size: 12px;
+	}
+
+	.end-jsvideo ol.flex-control-nav.flex-control-paging
+	{
+		width: 100%;
+		float: none;
+		overflow: hidden;
+		text-align: center;
+		margin-top: 5%;
+		margin-bottom: 10%;
+	}
+
+	.end-jsvideo .flex-nav-prev
+	{
+		bottom: 10%;
+	}
+
+	.end-jsvideo .flex-nav-next
+	{
+		bottom: 10%;
+	}
+
+	.pro-list .ul li
+	{
+		width: 50%;
+	}
+
+	.pro-list .ul li .tit
+	{
+		font-size: 14px;
+	}
+
+	.pro-list .ul li .p
+	{
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.pro-list .ul li .p .sp
+	{
+		font-size: 14px;
+	}
+
+	.pro-list .click-nav ul
+	{
+		display: none;
+	}
+
+	.pro-list .click-nav
+	{
+		height: 86px;
+	}
+
+	.pro-list .swiper-container1
+	{
+		display: block;
+	}
+
+	.pro-list .ul1
+	{
+		display: none;
+	}
+
+	.pro-list .ul2
+	{
+		display: block;
+	}
+
+	.pro-list .ul li.ssp
+	{
+		font-size: 16px;
+	}
+
+	.pro-ex260 .box1
+	{
+		padding-top: 7%;
+	}
+
+	.pro-ex260 .box2sp .samebox
+	{
+		position: relative;
+		padding-top: 3%;
+	}
+
+	.pro-ex260 .box2sp .samebox .tit
+	{
+		color: #000!important;
+	}
+
+	.pro-ex260 .box2sp .samebox .text
+	{
+		color: #666;
+	}
+
+	.pro-ex260 .box3
+	{
+		padding-top: 3%;
+		padding-bottom: 3%;
+		position: relative;
+	}
+
+	.pro-ex260 .box4
+	{
+		padding-bottom: 35%;
+	}
+
+	.pro-ex260 .box4 .img
+	{
+		width: 90%;
+		position: absolute;
+		left: 5%;
+		top: -7%;
+	}
+
+	.pro-ex260 .bq-housekeeper
+	{
+		display: none;
+	}
+
+	.pro-eh300 .box2 .samebox .text
+	{
+		text-align: left;
+	}
+
+	.pro-eh300 .box3
+	{
+		padding-top: 7%;
+		padding-bottom: 7%;
+	}
+
+	.bq-table .table-box td
+	{
+		font-size: 12px;
+	}
+
+	.samebox .tit
+	{
+		margin-bottom: 0px;
+	}
+
+	.pro-ec180 .box1 .samebox
+	{
+		padding: 5% 0;
+	}
+
+	.pro-ec180 .box3 .ukl
+	{
+		display: none;
+	}
+
+	.pro-ec180 .box3 .swiper-container2
+	{
+		display: block;
+	}
+
+	.pro-ec180 .box4 .ul
+	{
+		display: none;
+	}
+
+	.charging-pile .box1
+	{
+		background: url(../images/img-170.png) repeat-x center 43%;
+	}
+
+	.charging-pile .box1 .tit
+	{
+		font-size: 21px;
+	}
+
+	.charging-pile .box1 .fll
+	{
+		float: left;
+		width: 92%;
+		padding: 0px;
+		margin-left: 4%;
+	}
+
+	.charging-pile .box1 .frr
+	{
+		float: right;
+		width: 92%;
+		padding: 0px;
+		margin-left: 4%;
+	}
+
+	.charging-pile .box1 .mobbox
+	{
+		display: block;
+	}
+
+	.charging-pile .box1 .fll img
+	{
+		display: none;
+	}
+
+	.charging-pile .box1 .fllbox
+	{
+		display: none;
+	}
+
+	.charging-pile .box1 .flr .num
+	{
+		font-size: 24px;
+		line-height: 24px;
+		margin-bottom: 14px;
+	}
+
+	.charging-pile .box1 .flr .ti
+	{
+		font-size: 16px;
+		color: #0097e0;
+		margin-bottom: 9px;
+	}
+
+	.charging-pile .box1 .flr .te
+	{
+		font-size: 14px;
+		color: #666;
+		line-height: 24px;
+	}
+
+	.charging-pile .box1 .tee .top span
+	{
+		font-size: 13px;
+	}
+
+	.charging-pile .box1 .tee .top
+	{
+		margin-bottom: 7px;
+	}
+
+	.charging-pile .box1 .tee .bot span
+	{
+		font-size: 14px;
+	}
+
+	.sda .t1
+	{
+		font-size: 18px;
+		line-height: 18px;
+		margin-bottom: 20px;
+	}
+
+	.sda .t2
+	{
+		font-size: 14px;
+		line-height: 14px;
+		margin-bottom: 10px;
+	}
+
+	.sda .t3
+	{
+		width: 92%;
+		margin: 0 auto;
+		font-size: 12px;
+		line-height: 24px;
+		text-align: left;
+	}
+
+	.charging-pile .box2 .boxnum .num
+	{
+		font-size: 24px;
+		line-height: 24px;
+		margin-bottom: 15px;
+	}
+
+	.charging-pile .box2 .boxnum .te
+	{
+		font-size: 14px;
+		margin-bottom: 10px;
+		line-height: 24px;
+	}
+
+	.charging-pile .box2 .boxnum .tpwo span
+	{
+		display: inline-block;
+		margin: 0 1px;
+		font-size: 12px;
+	}
+
+	.charging-pile .box2 .boxnum .te.sp
+	{
+		margin-bottom: 10px;
+	}
+
+	.charging-pile .box2 .boxnum .tpwo
+	{
+		margin-bottom: 30px;
+	}
+
+	.charging-pile .box3 .tit
+	{
+		font-size: 24px;
+	}
+
+	.charging-pile .box3 .two3 .kl
+	{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.charging-pile .box3 .two3 .kl .num
+	{
+		font-size: 30px;
+		line-height: 30px;
+		margin-bottom: 15px;
+	}
+
+	.charging-pile .box3 .two3 .kl .te
+	{
+		font-size: 18px;
+	}
+
+	.charging-pile .box3 .two3 .kl .text
+	{
+		font-size: 12px;
+		line-height: 24px;
+		text-align: left;
+	}
+
+	.charging-pile .box4 .tit
+	{
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+
+	.charging-pile .box4 .te
+	{
+		width: 92%;
+		font-size: 12px;
+		line-height: 24px;
+		text-align: left;
+	}
+
+	.charging-pile .box3 .two3 .kl.sp
+	{
+		border-right: 0px none;
+	}
+
+	.d-div .d-list .d-two
+	{
+		height: 78px;
+		overflow: hidden;
+	}
+
+	.d-div .d-list .d-two
+	{
+		line-height: 20px;
+		font-size: 12px;
+	}
+
+	.dealer-box2 ul li
+	{
+		margin-bottom: 10px;
+	}
+
+	input.pt::-webkit-input-placeholder
+	{
+		color: #333;
+	}
+
+	input:-moz-placeholder
+	{
+		color: #333;
+	}
+
+	input:-ms-input-placeholder
+	{
+		color: #333;
+	}
+
+	input.pt::-webkit-input-placeholder
+	{
+		color: #333;
+	}
+
+	input:-moz-placeholder
+	{
+		color: #333;
+	}
+
+	input:-ms-input-placeholder
+	{
+		color: #333;
+	}
+
+	.ajax-header
+	{
+		display: none;
+	}
+
+	.header-mobile
+	{
+		display: block;
+	}
+
+	.banner
+	{
+		display: none;
+	}
+
+	.banner-mobile
+	{
+		display: block;
+	}
+
+	.mobile-list
+	{
+		display: block;
+	}
+
+	.mobile-video
+	{
+		display: block;
+	}
+
+	.video
+	{
+		display: none;
+	}
+
+	.images
+	{
+		display: none;
+	}
+
+	.two
+	{
+		display: none;
+	}
+
+	.mobile-box
+	{
+		display: block;
+	}
+
+	.hdd
+	{
+		display: block;
+	}
+
+	.ajax-footer
+	{
+		display: none;
+	}
+
+	.ajax-footer-mobile
+	{
+		display: block;
+	}
+
+	.load
+	{
+		display: none;
+	}
+
+	.same-pc
+	{
+		display: none;
+	}
+
+	.same-mobile
+	{
+		display: block;
+	}
+
+	.service-ajax .box .js-img
+	{
+		display: block;
+	}
+
+	.pc_video
+	{
+		display: none;
+	}
+
+	.video_dd
+	{
+		display: block;
+	}
+
+	.video_dd img
+	{
+		max-width: 100%;
+	}
+}
+
+@media (max-width:768px)
+{
+	.end-jsvideo ul.slides .jk
+	{
+		width: 46px;
+		height: 46px;
+		background-size: 46px auto;
+		margin-left: -23px;
+		margin-top: -23px;
+	}
+
+	.end-jsvideo ul.slides p
+	{
+		line-height: 40px;
+		font-size: 16px;
+		overflow: hidden;
+		padding: 0 5%;
+		color: #666;
+	}
+
+	.dealer-box2 ul li .box .text
+	{
+		width: 75%;
+	}
+
+	.w1400
+	{
+		width: 92%;
+	}
+
+	.bannerimg .text
+	{
+		width: 92%;
+		left: 4%;
+	}
+
+	.dealer-box2 ul li .box .text p
+	{
+		line-height: 24px;
+		margin-bottom: 10px;
+	}
+
+	.service-aftersale .ul li
+	{
+		width: 23.5%;
+		margin-right: 2%;
+		height: 333px;
+	}
+
+	.service-aftersale .ul li:nth-child(5n)
+	{
+		margin-right: 2%;
+	}
+
+	.service-aftersale .ul li:nth-child(4n)
+	{
+		margin-right: 0px;
+	}
+
+	.story .send
+	{
+		padding-top: 17%;
+		padding-bottom: 100%;
+		background: url(../images/img-43.jpg) no-repeat center top;
+	}
+
+	.w1680.nm
+	{
+		display: none;
+	}
+
+	.news-banner
+	{
+		display: block;
+	}
+
+	.w1680.nm ul li
+	{
+		width: 100%;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.w1680.nm ul li:nth-child(3n)
+	{
+		border-bottom: 0px none;
+	}
+
+	.pro-list .ul li .p
+	{
+		padding-left: 0px;
+	}
+
+	.d-div .d-list
+	{
+		padding: 4% 0 3%;
+	}
+
+	.pro-list .ul li .tit
+	{
+		margin: 2% 0 8%;
+	}
+
+	.d-div .click
+	{
+		margin: 12% 0 0;
+	}
+
+	.more-btn p
+	{
+		font-size: 14px;
+	}
+
+	.n-community .listd .msg-tb .tr .wtd label
+	{
+		margin-right: 10px !important;
+	}
+
+	.bq-table .table-box th
+	{
+		font-size: 14px;
+	}
+
+	.click-more
+	{
+		width: 92% !important;
+		height: 50px;
+		line-height: 50px;
+		font-size: 14px;
+	}
+
+	.bq-table .table-box th
+	{
+		height: 45px;
+	}
+
+	.bq-table .table-box td
+	{
+		height: 45px;
+	}
+}
+
+@media (max-width:480px)
+{
+	.servicenav-box .prev
+	{
+		left: -8px;
+	}
+
+	.servicenav-box .next
+	{
+		right: -8px;
+	}
+
+	.servicenav-box
+	{
+		margin-bottom: 15px;
+	}
+
+	.service-aftersale .ul li
+	{
+		width: 100%;
+		margin-right: 2%;
+		height: 314px;
+		height: auto;
+	}
+
+	.service-aftersale .ul li .img-box
+	{
+		width: 30%;
+		float: left;
+	}
+
+	.service-aftersale .ul li
+	{
+		margin-bottom: 20px;
+	}
+
+	.service-aftersale .ul li .tit
+	{
+		width: 62%;
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+	}
+
+	.service-aftersale .ul li .te
+	{
+		width: 62%;
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+	}
+
+	.service-aftersale .ul li:nth-child(5n)
+	{
+		margin-right: 2%;
+	}
+
+	.service-aftersale .ul li:nth-child(4n)
+	{
+		margin-right: 2%;
+	}
+
+	.service-aftersale .ul li:nth-child(2n)
+	{
+		margin-right: 0%;
+	}
+
+	.contact ul li .img
+	{
+		width: 80px;
+		height: 80px;
+	}
+
+	.contact ul li .img img
+	{
+		margin-top: 18px;
+		transform: scale(0.8);
+	}
+
+	.contact ul
+	{
+		border-bottom: 0px none;
+		margin-bottom: 0px;
+		padding-bottom: 30px;
+	}
+
+	.pro-ex260 .box4 img.bg
+	{
+		display: block;
+		height: 150px;
+		max-width: inherit;
+		margin-left: -44%;
+	}
+
+	.pro-ex260 .box4
+	{
+		overflow: hidden;
+		padding-top: 6%;
+	}
+
+	.pro-ex260 .box4 .img
+	{
+		top: 23%;
+	}
+
+	.pro-ex260 .box6
+	{
+		background: #fbfbfb;
+		padding-top: 5%;
+		padding-bottom: 10%;
+	}
+
+	.info-end .click-btn
+	{
+		width: 92%;
+		margin: 0 auto 20px;
+	}
+
+	.info-end .click-btn a
+	{
+		width: 48%;
+		margin: 0 1%;
+	}
+
+	.samebox .tit
+	{
+		font-size: 20px;
+	}
+
+	.pro-eh300 .box2sp .samebox .tit p
+	{
+		display: block;
+		line-height: 26px;
+	}
+
+	.pro-eh300 .box2sp .samebox
+	{
+		top: 8%;
+	}
+
+	.pro-eh300 .box3 .samebox .tit p
+	{
+		display: block;
+		line-height: 26px;
+	}
+
+	.pro-eh300 .box4
+	{
+		overflow: hidden;
+	}
+
+	.pro-eh300 .box4 >img
+	{
+		width: 150%;
+		margin-left: -25%;
+	}
+
+	.pro-eh300 .box4 .img
+	{
+		width: 90%;
+		position: absolute;
+		left: 5%;
+		top: 51%;
+	}
+
+	.pro-ec180 .box2 .abbox.cur
+	{
+		position: absolute;
+		bottom: 0px;
+		left: 40%;
+		width: 50%;
+	}
+
+	#myCar
+	{
+		height: 200px!important;
+	}
+
+	.end-jsvideo
+	{
+		width: 90%;
+	}
+
+	.videobox-t
+	{
+		height: 280px !important;
+	}
+
+	.videobox-t .video
+	{
+		height: 280px !important;
+	}
+}
+
+@media (max-width:1470px)
+{
+	.ul-xss
+	{
+		width: 92%;
+	}
+
+	.w-addr .addbox
+	{
+		margin-right: 5%;
+		width: 45%;
+	}
+
+	.w-addr .thr
+	{
+		width: 50%;
+	}
+
+	.contact .thr .box
+	{
+		width: 25%;
+		padding: 0 2%;
+		margin: 0;
+		box-sizing: border-box;
+	}
+
+	.contact .thr p
+	{
+		font-size: 16px;
+	}
+
+	.contact .thr .box .img img
+	{
+		max-width: 100%;
+	}
+
+	.eh300-ul-xss
+	{
+		width: 92%;
+	}
+
+	.eh300-ul-xss.rw1160
+	{
+		width: 92%;
+	}
+
+	.zwx1400
+	{
+		width: 92%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width:1200px)
+{
+	.activeState
+	{
+		bottom: 10px;
+		right: 10px;
+	}
+}
+
+@media (max-width:1024px)
+{
+	.pro-list .click-nav .fon-16-zz
+	{
+		font-size: 18px;
+	}
+
+	.click-fixed
+	{
+		display: none !important;
+	}
+
+	.pro-list .ul li:hover .box
+	{
+		top: 0 !important;
+	}
+
+	.sp-btn-two
+	{
+		color: #0097e0;
+		background: url(../img/c-btn3-1.png) no-repeat left top !important;
+	}
+
+	.ul-xss
+	{
+		margin: 0 auto;
+	}
+
+	.ul-xss .li .hs
+	{
+		font-size: 16px;
+		padding-left: 30px;
+		background-size: 20px auto!important;
+	}
+
+	.eu260-ul
+	{
+		width: 100%;
+	}
+
+	.eu260-ul li .p1
+	{
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	.eu260-ul li .p2
+	{
+		font-size: 12px;
+		width: 60%;
+		margin: 0 auto;
+		line-height: 18px;
+	}
+
+	.w-addr .addbox .li .h
+	{
+		font-size: 18px;
+		line-height: 26px;
+	}
+
+	.w-addr .addbox .li .p
+	{
+		font-size: 12px;
+		line-height: 22px;
+	}
+
+	.eh300-ul-xss.rw960
+	{
+		width: 92%;
+	}
+
+	.eh300-ul-xss
+	{
+		margin-top: 3%;
+	}
+
+	.eh300-ul-xss .li
+	{
+		width: 100%;
+		min-height: 50px;
+		margin-bottom: 3%;
+	}
+}
+
+@media (max-width:768px)
+{
+	.ul-xss .li
+	{
+		width: 100%;
+		padding: 10px 0 5px 0;
+	}
+
+	.w-addr .addbox .li
+	{
+		padding-left: 25px;
+		background-size: 25px auto !important;
+	}
+
+	.w-addr .addbox
+	{
+		width: 100%;
+		margin-right: 0;
+		margin-top: 6%;
+	}
+
+	.w-addr .thr
+	{
+		width: 100%;
+	}
+
+	.eh300-ul-xss .li
+	{
+		width: 100%;
+		min-height: 30px;
+		background-size: 30px auto !important;
+		padding: 5px 0 5px 40px
+	}
+
+	.eh300-ul-xss .li .p
+	{
+		line-height: 20px;
+		font-size: 12px;
+	}
+
+	.contact .thr .box
+	{
+		width: 50%;
+	}
+}
+
+@media (max-width: 1024px)
+{
+	.w1680.nm ul li .nm-te
+	{
+		height: 40px;
+	}
+}
+
+@media (max-width: 768px)
+{
+	.news-banner .swiper-slide .nm-te
+	{
+		height: auto;
+	}
+}
